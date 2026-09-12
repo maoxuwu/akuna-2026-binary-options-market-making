@@ -1,0 +1,53 @@
+=== case: clean  (correct verdict: exit 0) ===
+  ORIGINAL : exit=0                      [ok]
+      grader day-end cash ever negative in worst runs: False
+      FAILURES: 0
+  CORRECTED: exit=0                      [ok]
+      FAILURES: 0
+=== case: neg_cash(seed2)  (correct verdict: exit 1) ===
+  ORIGINAL : exit=0                      [WRONG]
+      grader day-end cash ever negative in worst runs: False
+      FAILURES: 0
+  CORRECTED: exit=1                      [ok]
+      FAIL generic   seed= 2 gap=+0.00e+00 mirror-grader=+0.00e+00 minEOD=  -1.000 trades=  1 fok=1/1 unsettled=[] final=10.00
+      FAIL defensive seed= 2 gap=+0.00e+00 mirror-grader=+0.00e+00 minEOD=  -1.000 trades=  1 fok=1/1 unsettled=[] final=10.00
+      FAIL test19    seed= 2 gap=+0.00e+00 mirror-grader=+0.00e+00 minEOD=  -1.000 trades=  1 fok=1/1 unsettled=[] final=10.00
+      FAIL  grader day-end cash >= 0 in EVERY run
+      FAILURES: 3
+=== case: neg_cash+tolerated_gap  (correct verdict: exit 1) ===
+  ORIGINAL : exit=0                      [WRONG]
+      grader day-end cash ever negative in worst runs: False
+      FAILURES: 0
+  CORRECTED: exit=1                      [ok]
+      FAIL generic   seed= 2 gap=+0.00e+00 mirror-grader=+0.00e+00 minEOD=  -0.500 trades=  1 fok=1/1 unsettled=[] final=10.00
+      FAIL defensive seed= 2 gap=+0.00e+00 mirror-grader=+0.00e+00 minEOD=  -0.500 trades=  1 fok=1/1 unsettled=[] final=10.00
+      FAIL test19    seed= 2 gap=+0.00e+00 mirror-grader=+0.00e+00 minEOD=  -0.500 trades=  1 fok=1/1 unsettled=[] final=10.00
+      FAIL  grader day-end cash >= 0 in EVERY run
+      FAILURES: 3
+=== case: gap_1e-3  (correct verdict: exit 1) ===
+  ORIGINAL : exit=0                      [WRONG]
+      FAIL generic   seed= 3 gap=+1.00e-03 mirror-grader=+0.00e+00 minEOD=  10.000 trades=  1 fok=1/1 unsettled=[] final=10.00
+      FAIL defensive seed= 3 gap=+1.00e-03 mirror-grader=+0.00e+00 minEOD=  10.000 trades=  1 fok=1/1 unsettled=[] final=10.00
+      FAIL test19    seed= 3 gap=+1.00e-03 mirror-grader=+0.00e+00 minEOD=  10.000 trades=  1 fok=1/1 unsettled=[] final=10.00
+      grader day-end cash ever negative in worst runs: False
+      FAILURES: 3
+  CORRECTED: exit=1                      [ok]
+      FAIL generic   seed= 3 gap=+1.00e-03 mirror-grader=+0.00e+00 minEOD=  10.000 trades=  1 fok=1/1 unsettled=[] final=10.00
+      FAIL defensive seed= 3 gap=+1.00e-03 mirror-grader=+0.00e+00 minEOD=  10.000 trades=  1 fok=1/1 unsettled=[] final=10.00
+      FAIL test19    seed= 3 gap=+1.00e-03 mirror-grader=+0.00e+00 minEOD=  10.000 trades=  1 fok=1/1 unsettled=[] final=10.00
+      FAIL  |identity gap| <= 1e-06 in EVERY run
+      FAILURES: 3
+=== case: unsettled_id  (correct verdict: exit 1) ===
+  ORIGINAL : exit=0                      [WRONG]
+      FAIL test19    seed= 4 gap=+0.00e+00 mirror-grader=+0.00e+00 minEOD=  10.000 trades=  1 fok=1/1 unsettled=[1234] final=10.00
+      grader day-end cash ever negative in worst runs: False
+      FAILURES: 1
+  CORRECTED: exit=1                      [ok]
+      FAIL test19    seed= 4 gap=+0.00e+00 mirror-grader=+0.00e+00 minEOD=  10.000 trades=  1 fok=1/1 unsettled=[1234] final=10.00
+      FAIL  no traded option left unsettled in ANY run
+      FAILURES: 1
+=== case: exception  (correct verdict: exit 1) ===
+  ORIGINAL : exit=UNCAUGHT RuntimeError  [WRONG]
+  CORRECTED: exit=1                      [ok]
+      FAIL  all sessions completed without exception
+      FAILURES: 1

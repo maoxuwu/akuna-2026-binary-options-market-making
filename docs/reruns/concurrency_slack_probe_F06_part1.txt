@@ -1,0 +1,12 @@
+A codex-exact: quote Quote(bid_price=0.06, bid_quantity=1, offer_price=0.98, offer_quantity=1) bid_commit 0.06 fok_accepted True total 0.12 > mirror 0.10: True
+B robust: quote Quote(bid_price=0.05, bid_quantity=1, offer_price=0.98, offer_quantity=1) bid_commit 0.05 fok_accepted True total 0.11
+C sequential: mirror after fill 0.05 fok_accepted False (needs 0.06 <= 0.6*mirror = 0.03 )
+D worst single-quote-fill commitment / mirror = 0.6 case (10.0, 0, 0.05, 0.06, 'bid', Quote(bid_price=0.03, bid_quantity=1, offer_price=1.0, offer_quantity=1))
+D any single commitment > 0.6*mirror ? 0
+D any forced-extreme commitment > 0.3*mirror ? 18  zero-commit quotes seen: 8937
+D largest mirror where a normal quote-side commit > 30% of mirror, by (capital,tier): {(10.0, 0): 1.2, (10.0, 1): 2.5, (10.0, 5): 3.0, (20.0, 0): 1.2, (20.0, 1): 2.5, (20.0, 5): 3.0, (40.0, 0): 1.2, (40.0, 1): 2.5, (40.0, 5): 3.0}
+D largest mirror where a normal quote-side commit > 40% of mirror (breaks quote+FOK slack): {(10.0, 0): 1.0, (10.0, 1): 2.0, (10.0, 5): 2.0, (20.0, 0): 1.0, (20.0, 1): 2.0, (20.0, 5): 2.0, (40.0, 0): 1.0, (40.0, 1): 2.0, (40.0, 5): 2.0}
+E FOK mirror=0.1: accept qty*p=0.000 (<=0.6m=0.060) -> None; qty+1 -> False
+E FOK mirror=1.0: accept qty*p=0.500 (<=0.6m=0.600) -> True; qty+1 -> False
+E FOK mirror=10.0: accept qty*p=6.000 (<=0.6m=6.000) -> True; qty+1 -> False
+F worst (one quote fill + one accepted FOK, unreported) / mirror = 1.2 (10.0, 0, 0.05, 0.06, Quote(bid_price=0.03, bid_quantity=1, offer_price=1.0, offer_quantity=1), 0.03)

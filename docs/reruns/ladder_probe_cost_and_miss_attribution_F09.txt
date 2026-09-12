@@ -1,0 +1,44 @@
+competitive-only  adaptive=0  misses-before-fill per cycle [extreme,mid,competitive]: [(1, 4, 0), (1, 4, 0), (1, 4, 0), (1, 4, 0), (1, 4, 0), (1, 4, 0), (1, 4, 0), (1, 4, 0), (1, 4, 0), (1, 4, 0), (1, 4, 0), (1, 4, 0)]
+                    total misses over 12 fills = 60 (extreme 12, mid 48) -> 5.00 misses/fill
+competitive-only  adaptive=1  misses-before-fill per cycle [extreme,mid,competitive]: [(1, 4, 0), (1, 4, 0), (1, 4, 0), (0, 0, 0), (1, 4, 0), (0, 0, 0), (0, 0, 0), (0, 0, 0), (1, 4, 0), (0, 0, 0), (0, 0, 0), (0, 0, 0)]
+                    total misses over 12 fills = 25 (extreme 5, mid 20) -> 2.08 misses/fill
+mid-filler        adaptive=0  misses-before-fill per cycle [extreme,mid,competitive]: [(1, 0, 0), (1, 0, 0), (1, 0, 0), (1, 0, 0), (1, 0, 0), (1, 0, 0), (1, 0, 0), (1, 0, 0), (1, 0, 0), (1, 0, 0), (1, 0, 0), (1, 0, 0)]
+                    total misses over 12 fills = 12 (extreme 12, mid 0) -> 1.00 misses/fill
+mid-filler        adaptive=1  misses-before-fill per cycle [extreme,mid,competitive]: [(1, 0, 0), (1, 0, 0), (1, 0, 0), (0, 0, 0), (1, 0, 0), (0, 0, 0), (0, 0, 0), (0, 0, 0), (1, 0, 0), (0, 0, 0), (0, 0, 0), (0, 0, 0)]
+                    total misses over 12 fills = 5 (extreme 5, mid 0) -> 0.42 misses/fill
+whale             adaptive=0  misses-before-fill per cycle [extreme,mid,competitive]: [(0, 0, 0), (0, 0, 0), (0, 0, 0), (0, 0, 0), (0, 0, 0), (0, 0, 0), (0, 0, 0), (0, 0, 0), (0, 0, 0), (0, 0, 0), (0, 0, 0), (0, 0, 0)]
+                    total misses over 12 fills = 0 (extreme 0, mid 0) -> 0.00 misses/fill
+whale             adaptive=1  misses-before-fill per cycle [extreme,mid,competitive]: [(0, 0, 0), (0, 0, 0), (0, 0, 0), (0, 0, 0), (0, 0, 0), (0, 0, 0), (0, 0, 0), (0, 0, 0), (0, 0, 0), (0, 0, 0), (0, 0, 0), (0, 0, 0)]
+                    total misses over 12 fills = 0 (extreme 0, mid 0) -> 0.00 misses/fill
+
+=== scenario calm_dumb: 8 seeds, all our RFQ quote events ===
+tier        cp      quotes  fill limit_miss routing_miss zero_size
+extreme     noise      876   208        470          198         0
+extreme     sharp       37     3         29            5         0
+mid         noise      805   356        196          253         0
+mid         sharp      110    16         74           20         0
+competitive noise       33    17          9            7         0
+competitive sharp       59    11         40            8         0
+extreme-tier misses: 702 total, 203 (29%) were within the client's limit but a rival's better quote absorbed the order
+
+=== scenario mixed: 8 seeds, all our RFQ quote events ===
+tier        cp      quotes  fill limit_miss routing_miss zero_size
+extreme     noise      637   137        377          123         0
+extreme     sharp       67     6         52            9         0
+mid         noise      797   227        348          222         0
+mid         sharp      189    13        147           29         0
+competitive noise       83    36         18           29         0
+competitive sharp      147    19        105           23         0
+extreme-tier misses: 561 total, 132 (24%) were within the client's limit but a rival's better quote absorbed the order
+
+=== scenario toxic: 8 seeds, all our RFQ quote events ===
+tier        cp      quotes  fill limit_miss routing_miss zero_size
+extreme     noise      211    22        155           34         0
+extreme     sharp      123     7        101           15         0
+mid         noise      503    37        361          105         0
+mid         sharp      394    20        302           72         0
+competitive noise      274    57        155           62         0
+competitive sharp      415    48        289           78         0
+extreme-tier misses: 305 total, 49 (16%) were within the client's limit but a rival's better quote absorbed the order
+
+elapsed 0.8s

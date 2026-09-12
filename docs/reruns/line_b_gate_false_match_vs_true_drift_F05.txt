@@ -1,0 +1,12 @@
+defensive gate (20d, cash 10, FED0=1.5) vs true (dA, dT):
+  true dA=+0.0008 dT=+0.0011: defensive 1/400 = 0.2%
+  true dA=+0.0000 dT=+0.0000: defensive 1/400 = 0.2%
+  true dA=-0.0020 dT=+0.0020: defensive 16/400 = 4.0%
+  true dA=-0.0040 dT=+0.0030: defensive 38/400 = 9.5%
+  true dA=-0.0060 dT=+0.0040: defensive 74/400 = 18.5%
+test19 gate (40d, cash 40, FED0=1.5) vs true (dA, dT):
+  true dA=+0.0008 dT=+0.0011: test19 1/400 = 0.2%
+  true dA=+0.0000 dT=+0.0000: test19 0/400 = 0.0%
+  true dA=+0.0020 dT=-0.0020: test19 3/400 = 0.8%
+  true dA=+0.0040 dT=-0.0040: test19 25/400 = 6.2%
+  true dA=+0.0060 dT=-0.0060: test19 90/400 = 22.5%

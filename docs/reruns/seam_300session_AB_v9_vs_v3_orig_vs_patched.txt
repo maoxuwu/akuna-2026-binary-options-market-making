@@ -1,0 +1,8 @@
+300-session paired A/B (writeup §8, docs/validation_methodology.md): v9 (four pillars) vs v3 (mid-campaign 13.8), 100 seeds x 3 regimes
+harness   regime      mean_v3  mean_v9   delta    se wins_v3 wins_v9  p10_v3  p10_v9 bk_v3 bk_v9 rank+ rank-
+original  calm_dumb    277.90   274.84   -3.06  3.46      94      95  171.03  163.64     0     0     1     0
+original  mixed        111.32   107.82   -3.49  4.25      79      79   10.88   10.87     0     0     7     6
+original  toxic         11.50    11.63   +0.12  1.55      34      37  -15.99  -12.18     0     0    14     9
+patched   calm_dumb    285.44   283.61   -1.82  3.07      95      96  174.91  174.80     0     0     1     0
+patched   mixed        120.04   116.94   -3.11  4.16      80      83   18.33   19.06     0     0     7     3
+patched   toxic         13.23    13.15   -0.08  1.92      35      37  -15.73  -10.00     0     0    17    11

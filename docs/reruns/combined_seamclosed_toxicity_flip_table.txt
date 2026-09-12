@@ -1,0 +1,7 @@
+wu250 calm->toxic: dPnL(ramp-noramp) -1.94 ± 1.60 min -32.65 max +17.27 | post -0.73 ± 1.17 | bank 0/0 | losing on/off 0/0 | win->loss 0 | abs on/off +120.10/+122.05
+wu250 toxic->calm: dPnL(ramp-noramp) -1.31 ± 1.20 min -32.69 max +8.22 | post -1.33 ± 1.20 | bank 0/0 | losing on/off 0/0 | win->loss 0 | abs on/off +127.77/+129.08
+wu 30 calm->toxic: dPnL(ramp-noramp) +1.56 ± 1.28 min -13.47 max +31.24 | post +2.48 ± 1.68 | bank 0/0 | losing on/off 1/1 | win->loss 0 | abs on/off +104.33/+102.77
+wu 30 toxic->calm: dPnL(ramp-noramp) +0.32 ± 0.27 min -4.48 max +5.10 | post +0.32 ± 0.27 | bank 0/0 | losing on/off 1/1 | win->loss 0 | abs on/off +81.88/+81.56
+wu 20 calm->toxic: dPnL(ramp-noramp) -0.19 ± 1.33 min -25.11 max +18.19 | post +0.48 ± 0.83 | bank 0/0 | losing on/off 0/0 | win->loss 0 | abs on/off +124.09/+124.28
+wu 20 toxic->calm: dPnL(ramp-noramp) +2.33 ± 5.51 min -121.27 max +66.01 | post +2.65 ± 5.17 | bank 0/0 | losing on/off 2/2 | win->loss 0 | abs on/off +152.00/+149.66
+wall 17s

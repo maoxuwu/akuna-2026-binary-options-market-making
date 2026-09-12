@@ -1,0 +1,256 @@
+=== (b) REGIME GRID: v13 full — per (mode,fed_start,warmup), pooled over 3 scenarios x 30 seeds ===
+mode fs   wu | start_rate | clamp% up0% dn0% | fedMAE compMAE fedShare | pnl±se  rank wins/n bkr | Δdose(full−frozen)±se rankchg | ΔE34(e34−v13)±se rankchg
+post 0.25 250 |  0.25 |   2.6   0.0   2.6 | 0.034 0.037 0.26 |  137.0±14.1 1.60 64/90 0 |   -5.7± 3.0 10 |   -2.4± 2.2  7
+post 0.25  30 |  0.25 |   3.3   0.0   3.3 | 0.129 0.131 0.25 |  105.5±13.3 1.90 47/90 0 |   -7.1± 2.6  7 |   -0.9± 3.2 10
+post 0.25  20 |  0.25 |   3.5   0.0   3.5 | 0.089 0.093 0.25 |  125.3±14.6 1.64 60/90 0 |   -6.6± 2.8 16 |   -1.7± 2.3 12
+post 1.50 250 |  1.50 |   0.0   0.0   0.0 | 0.027 0.037 0.27 |  141.5±14.3 1.57 64/90 0 |  -10.3± 3.3 13 |    0.3± 1.0  3
+post 1.50  30 |  1.50 |   0.0   0.0   0.0 | 0.116 0.121 0.25 |  104.0±13.4 1.80 52/90 0 |  -12.3± 2.8 11 |   -2.4± 2.0 10
+post 1.50  20 |  1.50 |   0.0   0.0   0.0 | 0.073 0.089 0.26 |  128.7±14.1 1.62 63/90 0 |  -12.5± 3.4 10 |   -0.5± 1.7  8
+post 3.00 250 |  3.00 |   0.0   0.0   0.0 | 0.031 0.038 0.26 |  134.9±13.4 1.62 65/90 0 |   -9.4± 4.0 13 |   -0.5± 1.3  7
+post 3.00  30 |  3.00 |   0.0   0.0   0.0 | 0.125 0.114 0.27 |  101.4±12.1 1.89 46/90 0 |   -3.6± 3.1 11 |   -1.0± 2.9 11
+post 3.00  20 |  3.00 |   0.0   0.0   0.0 | 0.098 0.082 0.27 |  128.0±13.7 1.73 58/90 0 |   -5.6± 3.8 18 |    3.1± 2.5  7
+post 5.50 250 |  5.50 |  26.8  26.8   0.0 | 0.047 0.041 0.24 |  136.6±13.8 1.61 63/90 0 |   -8.3± 3.3 19 |    0.5± 3.7  6
+post 5.50  30 |  5.50 |  26.8  26.8   0.0 | 0.146 0.114 0.24 |   83.8±11.6 2.18 43/90 0 |  -10.7± 3.4 16 |    0.1± 2.7 14
+post 5.50  20 |  5.50 |  24.4  24.4   0.0 | 0.131 0.085 0.25 |  118.4±13.3 1.69 58/90 0 |   -7.0± 3.2 18 |    0.7± 3.7 11
+pre  0.25 250 |  2.13 |   0.0   0.0   0.0 | 0.029 0.037 0.27 |  140.8±14.5 1.57 65/90 0 |   -7.0± 4.1 15 |   -0.6± 0.8  1
+pre  0.25  30 |  1.57 |   0.0   0.0   0.0 | 0.111 0.114 0.27 |  111.6±13.1 1.88 51/90 0 |   -6.5± 2.7 17 |    3.1± 2.3  8
+pre  0.25  20 |  1.45 |   0.0   0.0   0.0 | 0.101 0.091 0.26 |  133.9±15.5 1.67 62/90 0 |  -13.1± 2.5 15 |    0.5± 2.5  9
+pre  1.50 250 |  2.07 |   0.0   0.0   0.0 | 0.028 0.038 0.27 |  140.9±14.6 1.60 64/90 0 |   -9.6± 4.1 19 |    0.4± 2.3  7
+pre  1.50  30 |  1.94 |   0.0   0.0   0.0 | 0.109 0.111 0.25 |  104.1±13.5 1.91 51/90 0 |  -12.8± 3.5 18 |    1.3± 1.6  5
+pre  1.50  20 |  1.98 |   0.0   0.0   0.0 | 0.081 0.081 0.26 |  131.3±13.5 1.61 64/90 0 |  -10.0± 3.2 11 |   -0.8± 1.7  7
+pre  2.00 250 |  2.07 |   0.0   0.0   0.0 | 0.028 0.038 0.27 |  141.2±14.4 1.52 68/90 0 |   -8.6± 3.4 14 |    0.6± 1.4  6
+pre  2.00  30 |  2.02 |   0.0   0.0   0.0 | 0.104 0.113 0.24 |  108.1±13.2 1.83 54/90 0 |   -9.1± 2.3 14 |   -4.9± 1.7  5
+pre  2.00  20 |  2.15 |   0.0   0.0   0.0 | 0.077 0.084 0.26 |  132.1±13.7 1.54 63/90 0 |  -11.2± 3.7  9 |    2.9± 1.9  8
+pre  3.00 250 |  2.07 |   0.0   0.0   0.0 | 0.027 0.038 0.27 |  143.2±14.5 1.59 67/90 0 |   -7.0± 3.1  9 |    0.2± 1.3  3
+pre  3.00  30 |  2.29 |   0.0   0.0   0.0 | 0.093 0.107 0.25 |  116.4±14.3 1.93 52/90 0 |   -8.9± 3.9 13 |    0.4± 1.5  6
+pre  3.00  20 |  2.48 |   0.0   0.0   0.0 | 0.076 0.086 0.25 |  134.7±14.4 1.59 61/90 0 |   -6.3± 3.2 16 |    2.6± 1.9 10
+pre  5.50 250 |  2.14 |   0.0   0.0   0.0 | 0.021 0.037 0.27 |  143.2±14.4 1.63 64/90 0 |  -11.1± 3.4 13 |    0.9± 1.2  3
+pre  5.50  30 |  2.95 |   0.0   0.0   0.0 | 0.114 0.098 0.29 |  107.0±13.2 1.93 48/90 0 |   -8.4± 2.8 17 |   -4.9± 2.9 11
+pre  5.50  20 |  3.52 |   0.2   0.2   0.0 | 0.093 0.078 0.26 |  130.0±13.3 1.62 61/90 0 |   -7.2± 3.0 18 |    0.4± 2.3 12
+
+=== dose Δ by scenario (full − frozen), mode/fs/wu ===
+calm_dumb post 0.25  20:   -4.8 ±  3.4
+calm_dumb post 0.25  30:  -13.9 ±  4.1
+calm_dumb post 0.25 250:   -3.3 ±  5.7
+calm_dumb post 1.50  20:  -14.1 ±  6.0
+calm_dumb post 1.50  30:  -19.6 ±  5.4
+calm_dumb post 1.50 250:  -10.3 ±  4.2
+calm_dumb post 3.00  20:   -4.0 ±  9.2
+calm_dumb post 3.00  30:  -16.1 ±  5.7
+calm_dumb post 3.00 250:   -6.6 ±  9.6
+calm_dumb post 5.50  20:  -16.2 ±  6.9
+calm_dumb post 5.50  30:  -24.5 ±  7.1
+calm_dumb post 5.50 250:   -7.7 ±  6.9
+calm_dumb pre  0.25  20:  -15.6 ±  4.7
+calm_dumb pre  0.25  30:   -9.5 ±  4.5
+calm_dumb pre  0.25 250:  -10.7 ±  8.0
+calm_dumb pre  1.50  20:  -13.7 ±  5.0
+calm_dumb pre  1.50  30:  -23.0 ±  7.5
+calm_dumb pre  1.50 250:  -10.9 ±  6.5
+calm_dumb pre  2.00  20:  -15.0 ±  7.2
+calm_dumb pre  2.00  30:  -14.1 ±  4.3
+calm_dumb pre  2.00 250:   -4.4 ±  4.0
+calm_dumb pre  3.00  20:   -4.4 ±  3.5
+calm_dumb pre  3.00  30:  -18.0 ±  6.9
+calm_dumb pre  3.00 250:   -0.8 ±  4.0
+calm_dumb pre  5.50  20:  -10.4 ±  5.0
+calm_dumb pre  5.50  30:  -17.0 ±  5.5
+calm_dumb pre  5.50 250:  -13.7 ±  6.7
+mixed     post 0.25  20:  -13.0 ±  6.8
+mixed     post 0.25  30:   -5.4 ±  5.4
+mixed     post 0.25 250:   -1.1 ±  5.7
+mixed     post 1.50  20:  -21.6 ±  7.1
+mixed     post 1.50  30:  -13.8 ±  5.8
+mixed     post 1.50 250:  -14.1 ±  6.2
+mixed     post 3.00  20:  -11.1 ±  5.1
+mixed     post 3.00  30:    2.7 ±  6.6
+mixed     post 3.00 250:  -16.0 ±  6.0
+mixed     post 5.50  20:  -10.7 ±  5.5
+mixed     post 5.50  30:   -4.0 ±  5.3
+mixed     post 5.50 250:  -14.4 ±  5.6
+mixed     pre  0.25  20:  -12.7 ±  3.6
+mixed     pre  0.25  30:   -8.8 ±  6.4
+mixed     pre  0.25 250:    0.4 ±  7.4
+mixed     pre  1.50  20:  -14.4 ±  7.6
+mixed     pre  1.50  30:  -14.2 ±  6.0
+mixed     pre  1.50 250:  -17.7 ±  6.8
+mixed     pre  2.00  20:  -17.3 ±  7.8
+mixed     pre  2.00  30:  -11.5 ±  4.7
+mixed     pre  2.00 250:  -17.5 ±  6.1
+mixed     pre  3.00  20:   -7.5 ±  8.0
+mixed     pre  3.00  30:   -3.5 ±  8.7
+mixed     pre  3.00 250:  -15.4 ±  6.3
+mixed     pre  5.50  20:   -5.7 ±  5.6
+mixed     pre  5.50  30:   -6.1 ±  5.6
+mixed     pre  5.50 250:  -14.7 ±  5.4
+toxic     post 0.25  20:   -1.9 ±  3.3
+toxic     post 0.25  30:   -2.0 ±  3.5
+toxic     post 0.25 250:  -12.6 ±  4.3
+toxic     post 1.50  20:   -1.9 ±  3.2
+toxic     post 1.50  30:   -3.4 ±  2.6
+toxic     post 1.50 250:   -6.5 ±  6.6
+toxic     post 3.00  20:   -1.8 ±  4.4
+toxic     post 3.00  30:    2.6 ±  1.5
+toxic     post 3.00 250:   -5.7 ±  4.2
+toxic     post 5.50  20:    5.8 ±  3.1
+toxic     post 5.50  30:   -3.6 ±  4.6
+toxic     post 5.50 250:   -2.8 ±  4.1
+toxic     pre  0.25  20:  -10.9 ±  4.9
+toxic     pre  0.25  30:   -1.2 ±  2.6
+toxic     pre  0.25 250:  -10.8 ±  5.8
+toxic     pre  1.50  20:   -1.8 ±  2.9
+toxic     pre  1.50  30:   -1.3 ±  3.1
+toxic     pre  1.50 250:   -0.3 ±  7.6
+toxic     pre  2.00  20:   -1.4 ±  2.3
+toxic     pre  2.00  30:   -1.6 ±  2.6
+toxic     pre  2.00 250:   -3.9 ±  7.0
+toxic     pre  3.00  20:   -6.9 ±  4.2
+toxic     pre  3.00  30:   -5.0 ±  3.5
+toxic     pre  3.00 250:   -4.6 ±  5.4
+toxic     pre  5.50  20:   -5.5 ±  5.0
+toxic     pre  5.50  30:   -2.0 ±  2.9
+toxic     pre  5.50 250:   -4.9 ±  5.4
+
+=== E34 Δ by scenario (e34 − v13), only cells with |Δ|>2 or nonzero ===
+calm_dumb post 0.25  20:    2.0 ±  4.0
+calm_dumb post 0.25  30:   -2.1 ±  8.8
+calm_dumb post 0.25 250:   -1.0 ±  2.7
+calm_dumb post 1.50  20:    2.1 ±  3.2
+calm_dumb post 1.50  30:   -1.0 ±  4.0
+calm_dumb post 1.50 250:   -1.7 ±  1.2
+calm_dumb post 3.00  20:    3.1 ±  5.0
+calm_dumb post 3.00  30:    0.9 ±  6.4
+calm_dumb post 3.00 250:    1.2 ±  1.7
+calm_dumb post 5.50  20:   -4.3 ±  9.7
+calm_dumb post 5.50  30:   -1.0 ±  6.1
+calm_dumb post 5.50 250:    4.4 ±  8.4
+calm_dumb pre  0.25  20:   -2.0 ±  4.9
+calm_dumb pre  0.25  30:    5.5 ±  6.0
+calm_dumb pre  0.25 250:   -1.1 ±  1.4
+calm_dumb pre  1.50  20:   -2.1 ±  3.8
+calm_dumb pre  1.50  30:    2.4 ±  3.5
+calm_dumb pre  1.50 250:    0.3 ±  5.4
+calm_dumb pre  2.00  20:    3.7 ±  3.3
+calm_dumb pre  2.00  30:  -12.7 ±  4.3
+calm_dumb pre  2.00 250:    0.3 ±  1.2
+calm_dumb pre  3.00  20:    5.6 ±  4.3
+calm_dumb pre  3.00  30:   -2.4 ±  2.4
+calm_dumb pre  3.00 250:    1.1 ±  3.0
+calm_dumb pre  5.50  20:    5.5 ±  4.9
+calm_dumb pre  5.50  30:  -10.3 ±  7.9
+calm_dumb pre  5.50 250:    1.3 ±  2.4
+mixed     post 0.25  20:   -7.7 ±  5.2
+mixed     post 0.25  30:   -1.3 ±  3.6
+mixed     post 0.25 250:   -2.2 ±  4.8
+mixed     post 1.50  20:    0.8 ±  3.5
+mixed     post 1.50  30:   -7.0 ±  3.7
+mixed     post 1.50 250:    1.8 ±  2.5
+mixed     post 3.00  20:    5.0 ±  5.2
+mixed     post 3.00  30:   -3.0 ±  6.0
+mixed     post 3.00 250:   -0.5 ±  2.5
+mixed     post 5.50  20:    8.5 ±  4.7
+mixed     post 5.50  30:    3.4 ±  5.1
+mixed     post 5.50 250:   -1.5 ±  6.9
+mixed     pre  0.25  20:    0.3 ±  4.7
+mixed     pre  0.25  30:    3.5 ±  3.5
+mixed     pre  0.25 250:   -0.5 ±  1.7
+mixed     pre  1.50  20:    1.2 ±  2.3
+mixed     pre  1.50  30:    2.5 ±  3.2
+mixed     pre  1.50 250:    2.2 ±  2.7
+mixed     pre  2.00  20:    3.0 ±  3.2
+mixed     pre  2.00  30:   -2.2 ±  2.2
+mixed     pre  2.00 250:    0.8 ±  3.2
+mixed     pre  3.00  20:    3.1 ±  2.4
+mixed     pre  3.00  30:    0.2 ±  3.5
+mixed     pre  3.00 250:   -1.6 ±  1.9
+mixed     pre  5.50  20:    1.5 ±  3.4
+mixed     pre  5.50  30:   -4.5 ±  3.1
+mixed     pre  5.50 250:    0.6 ±  2.0
+toxic     post 0.25  20:    0.5 ±  1.5
+toxic     post 0.25  30:    0.7 ±  1.8
+toxic     post 0.25 250:   -3.9 ±  3.5
+toxic     post 1.50  20:   -4.6 ±  2.0
+toxic     post 1.50  30:    0.7 ±  2.0
+toxic     post 1.50 250:    0.7 ±  1.5
+toxic     post 3.00  20:    1.3 ±  1.9
+toxic     post 3.00  30:   -0.9 ±  1.0
+toxic     post 3.00 250:   -2.4 ±  2.4
+toxic     post 5.50  20:   -2.3 ±  2.5
+toxic     post 5.50  30:   -2.0 ±  2.2
+toxic     post 5.50 250:   -1.3 ±  2.7
+toxic     pre  0.25  20:    3.3 ±  3.0
+toxic     pre  0.25  30:    0.2 ±  1.0
+toxic     pre  0.25 250:   -0.3 ±  0.9
+toxic     pre  1.50  20:   -1.5 ±  2.9
+toxic     pre  1.50  30:   -1.1 ±  1.2
+toxic     pre  1.50 250:   -1.3 ±  3.4
+toxic     pre  2.00  20:    1.9 ±  3.3
+toxic     pre  2.00  30:    0.3 ±  0.8
+toxic     pre  2.00 250:    0.7 ±  2.5
+toxic     pre  3.00  20:   -1.0 ±  2.6
+toxic     pre  3.00  30:    3.5 ±  1.6
+toxic     pre  3.00 250:    1.3 ±  1.5
+toxic     pre  5.50  20:   -5.7 ±  3.4
+toxic     pre  5.50  30:    0.3 ±  1.5
+toxic     pre  5.50 250:    0.8 ±  2.0
+
+=== E34 wins: v13 vs e34 per (mode,fs,wu) ===
+post 0.25 250: wins v13 64/90  e34 61/90  e34 bankrupt 0
+post 0.25  30: wins v13 47/90  e34 48/90  e34 bankrupt 0
+post 0.25  20: wins v13 60/90  e34 58/90  e34 bankrupt 0
+post 1.50 250: wins v13 64/90  e34 66/90  e34 bankrupt 0
+post 1.50  30: wins v13 52/90  e34 48/90  e34 bankrupt 0
+post 1.50  20: wins v13 63/90  e34 62/90  e34 bankrupt 0
+post 3.00 250: wins v13 65/90  e34 63/90  e34 bankrupt 0
+post 3.00  30: wins v13 46/90  e34 46/90  e34 bankrupt 0
+post 3.00  20: wins v13 58/90  e34 61/90  e34 bankrupt 0
+post 5.50 250: wins v13 63/90  e34 63/90  e34 bankrupt 0
+post 5.50  30: wins v13 43/90  e34 43/90  e34 bankrupt 0
+post 5.50  20: wins v13 58/90  e34 61/90  e34 bankrupt 0
+pre  0.25 250: wins v13 65/90  e34 64/90  e34 bankrupt 0
+pre  0.25  30: wins v13 51/90  e34 52/90  e34 bankrupt 0
+pre  0.25  20: wins v13 62/90  e34 60/90  e34 bankrupt 0
+pre  1.50 250: wins v13 64/90  e34 62/90  e34 bankrupt 0
+pre  1.50  30: wins v13 51/90  e34 50/90  e34 bankrupt 0
+pre  1.50  20: wins v13 64/90  e34 63/90  e34 bankrupt 0
+pre  2.00 250: wins v13 68/90  e34 67/90  e34 bankrupt 0
+pre  2.00  30: wins v13 54/90  e34 50/90  e34 bankrupt 0
+pre  2.00  20: wins v13 63/90  e34 61/90  e34 bankrupt 0
+pre  3.00 250: wins v13 67/90  e34 66/90  e34 bankrupt 0
+pre  3.00  30: wins v13 52/90  e34 52/90  e34 bankrupt 0
+pre  3.00  20: wins v13 61/90  e34 61/90  e34 bankrupt 0
+pre  5.50 250: wins v13 64/90  e34 66/90  e34 bankrupt 0
+pre  5.50  30: wins v13 48/90  e34 44/90  e34 bankrupt 0
+pre  5.50  20: wins v13 61/90  e34 57/90  e34 bankrupt 0
+
+=== (a) SHARE-RULE GRID: dose Δ (full − frozen) under FOK share rules, fed 2.0, rfq qty≤30 ===
+floor          wu 30 calm_dumb: Δdose   -5.8 ±  9.5 | full pnl  248.3 rank 1.23 fokLots full/frozen   843/  913 rankchg 2
+floor          wu 30 mixed    : Δdose   -3.7 ±  6.2 | full pnl   81.9 rank 1.77 fokLots full/frozen   497/  534 rankchg 8
+floor          wu 30 toxic    : Δdose   -7.2 ±  4.9 | full pnl   15.6 rank 2.37 fokLots full/frozen   239/  322 rankchg 8
+floor          wu250 calm_dumb: Δdose    0.6 ±  7.9 | full pnl  297.1 rank 1.07 fokLots full/frozen  1020/ 1035 rankchg 2
+floor          wu250 mixed    : Δdose  -22.1 ±  8.0 | full pnl  106.5 rank 1.83 fokLots full/frozen   572/  673 rankchg 6
+floor          wu250 toxic    : Δdose   -5.6 ±  4.9 | full pnl   16.8 rank 2.13 fokLots full/frozen   304/  375 rankchg 7
+floor+sqnofok  wu 30 calm_dumb: Δdose  -20.3 ± 10.7 | full pnl  286.2 rank 1.17 fokLots full/frozen  1054/ 1168 rankchg 3
+floor+sqnofok  wu 30 mixed    : Δdose  -15.1 ±  6.2 | full pnl   98.3 rank 1.57 fokLots full/frozen   638/  736 rankchg 8
+floor+sqnofok  wu 30 toxic    : Δdose  -10.1 ±  5.0 | full pnl   14.5 rank 2.63 fokLots full/frozen   287/  374 rankchg 8
+floor+sqnofok  wu250 calm_dumb: Δdose   -5.1 ±  5.3 | full pnl  341.5 rank 1.10 fokLots full/frozen  1261/ 1305 rankchg 0
+floor+sqnofok  wu250 mixed    : Δdose   -4.5 ±  9.1 | full pnl  146.4 rank 1.43 fokLots full/frozen   766/  849 rankchg 4
+floor+sqnofok  wu250 toxic    : Δdose  -15.3 ±  6.8 | full pnl   19.0 rank 2.07 fokLots full/frozen   366/  489 rankchg 8
+random1        wu 30 calm_dumb: Δdose  -25.9 ± 17.7 | full pnl  282.9 rank 1.30 fokLots full/frozen   898/ 1008 rankchg 2
+random1        wu 30 mixed    : Δdose  -24.0 ± 12.7 | full pnl   78.0 rank 1.83 fokLots full/frozen   494/  583 rankchg 9
+random1        wu 30 toxic    : Δdose   -5.7 ±  6.3 | full pnl   19.7 rank 2.13 fokLots full/frozen   287/  329 rankchg 14
+random1        wu250 calm_dumb: Δdose   -9.4 ± 14.5 | full pnl  294.7 rank 1.17 fokLots full/frozen   970/ 1066 rankchg 4
+random1        wu250 mixed    : Δdose  -19.3 ± 11.1 | full pnl  111.4 rank 1.53 fokLots full/frozen   607/  702 rankchg 5
+random1        wu250 toxic    : Δdose    8.1 ±  7.1 | full pnl   34.0 rank 1.70 fokLots full/frozen   347/  384 rankchg 14
+rr             wu 30 calm_dumb: Δdose   -9.9 ±  9.0 | full pnl  249.5 rank 1.30 fokLots full/frozen   848/  929 rankchg 3
+rr             wu 30 mixed    : Δdose   -5.8 ±  5.2 | full pnl   85.2 rank 1.67 fokLots full/frozen   515/  567 rankchg 4
+rr             wu 30 toxic    : Δdose   -7.5 ±  4.9 | full pnl   15.2 rank 2.47 fokLots full/frozen   244/  328 rankchg 5
+rr             wu250 calm_dumb: Δdose    4.3 ±  7.4 | full pnl  318.3 rank 1.00 fokLots full/frozen  1093/ 1099 rankchg 1
+rr             wu250 mixed    : Δdose  -12.6 ±  9.6 | full pnl  111.6 rank 1.63 fokLots full/frozen   598/  675 rankchg 7
+rr             wu250 toxic    : Δdose   -5.4 ±  4.8 | full pnl   18.3 rank 2.10 fokLots full/frozen   311/  380 rankchg 9
+us_last        wu 30 calm_dumb: Δdose   -5.6 ±  9.5 | full pnl  248.0 rank 1.23 fokLots full/frozen   841/  912 rankchg 2
+us_last        wu 30 mixed    : Δdose   -3.7 ±  6.2 | full pnl   81.0 rank 1.77 fokLots full/frozen   494/  532 rankchg 8
+us_last        wu 30 toxic    : Δdose   -7.8 ±  5.1 | full pnl   15.6 rank 2.37 fokLots full/frozen   239/  323 rankchg 8
+us_last        wu250 calm_dumb: Δdose    0.5 ±  7.8 | full pnl  296.1 rank 1.07 fokLots full/frozen  1017/ 1033 rankchg 2
+us_last        wu250 mixed    : Δdose  -21.5 ±  7.8 | full pnl  106.5 rank 1.83 fokLots full/frozen   573/  674 rankchg 6
+us_last        wu250 toxic    : Δdose   -5.6 ±  4.9 | full pnl   17.3 rank 2.13 fokLots full/frozen   304/  375 rankchg 7

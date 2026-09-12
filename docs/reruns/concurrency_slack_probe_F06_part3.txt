@@ -1,0 +1,5 @@
+forced-extreme sides: n=73140, max commit/mirror=0.3000, >30% violations=0
+normal sides: n=164460, max commit/mirror=0.6000, >60% (available cash) violations=0
+tier nofill=0: largest mirror with normal side >30% = $1.49; >40% = $1.12 example (0.48, Quote(bid_price=0.45, bid_quantity=1, offer_price=0.98, offer_quantity=16))
+tier nofill=1: largest mirror with normal side >30% = $2.99; >40% = $2.24 example (0.01, Quote(bid_price=0.0, bid_quantity=10, offer_price=0.1, offer_quantity=1))
+tier nofill=5: largest mirror with normal side >30% = $3.19; >40% = $2.39 example (0.01, Quote(bid_price=0.0, bid_quantity=10, offer_price=0.04, offer_quantity=1))

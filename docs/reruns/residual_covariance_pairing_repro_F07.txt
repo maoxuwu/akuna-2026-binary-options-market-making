@@ -1,0 +1,21 @@
+== review 31-day interior-zero case (isolated non-positive prices on different dates) ==
+published daily_cov      : 0.00031202840796062004
+date-matched (Codex div) : 0.00046856215430605627 common dates: 26
+date-matched (same div)  : 0.00043251891166712884
+zip pairs n=28, mismatched pairs=12, first/last mism: [(7, 9, 7)] [(18, 20, 18)]
+company var A/T: 0.0005089357644708074 0.00045090830446449694  cap: 0.00047904421783262794
+
+== Absorbing-zero (suffix) case ==
+published daily_cov      : 0.000314821453024522
+date-matched (same div)  : 0.000314821453024522 common dates: 7
+zip pairs n=7, mismatched pairs=0
+note: n=7 <20 so var floor/clamps applied for A; cov capped by sqrt(varA*varT)=0.0005
+
+== Template dynamics ==
+(two organizer-template lines describing the valuation update — multiplicative in exp(log return), rounded to 2 dp — not reproduced here)
+0 * exp(x) rounded: 0.0  -> zero is absorbing; negative impossible (exp>0, round of nonneg)
+  from 500 in  20 days: need cum log-ret <= -11.51  = 117.0 sigma
+  from 500 in  45 days: need cum log-ret <= -11.51  = 78.0 sigma
+  from 500 in  65 days: need cum log-ret <= -11.51  = 64.9 sigma
+  from 500 in 200 days: need cum log-ret <= -11.51  = 37.0 sigma
+  empirical min company value over 2000 paths x 65 days: 281.12

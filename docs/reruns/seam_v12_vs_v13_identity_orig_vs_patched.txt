@@ -1,0 +1,2 @@
+original: v12 vs v13 identical P&L+rank in 120/120 paired sessions
+patched: v12 vs v13 identical P&L+rank in 120/120 paired sessions

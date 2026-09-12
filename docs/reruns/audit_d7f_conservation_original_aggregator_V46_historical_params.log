@@ -1,0 +1,34 @@
+OK  generic   seed= 1 gap=+1.48e-11 mirror-grader=+0.00e+00 minEOD=   0.609 trades= 89 fok=22/43 unsettled=[] final=121.88
+OK  generic   seed= 2 gap=+3.64e-12 mirror-grader=+0.00e+00 minEOD=   0.618 trades= 81 fok=17/54 unsettled=[] final=20208.27
+OK  generic   seed= 3 gap=-3.64e-12 mirror-grader=+0.00e+00 minEOD=   0.405 trades= 81 fok=19/41 unsettled=[] final=24092.20
+OK  generic   seed= 4 gap=+0.00e+00 mirror-grader=+0.00e+00 minEOD=   0.444 trades= 90 fok=19/58 unsettled=[] final=20099.42
+OK  generic   seed= 5 gap=-1.82e-12 mirror-grader=+0.00e+00 minEOD=   0.400 trades= 75 fok=26/45 unsettled=[] final=10271.82
+OK  generic   seed= 6 gap=-2.84e-14 mirror-grader=+0.00e+00 minEOD=   0.410 trades= 58 fok=15/49 unsettled=[] final=103.69
+OK  generic   seed= 7 gap=+0.00e+00 mirror-grader=+0.00e+00 minEOD=   0.412 trades= 78 fok=30/54 unsettled=[] final=89.59
+OK  generic   seed= 8 gap=+0.00e+00 mirror-grader=+0.00e+00 minEOD=   0.582 trades= 73 fok=34/56 unsettled=[] final=267.60
+OK  generic   seed= 9 gap=+5.68e-14 mirror-grader=+0.00e+00 minEOD=   0.431 trades= 89 fok=17/42 unsettled=[] final=282.63
+OK  generic   seed=10 gap=+2.10e-12 mirror-grader=+0.00e+00 minEOD=   0.510 trades=111 fok=14/39 unsettled=[] final=375.68
+OK  defensive seed= 1 gap=+0.00e+00 mirror-grader=+0.00e+00 minEOD=   0.420 trades= 72 fok=0/37 unsettled=[] final=498.75
+OK  defensive seed= 2 gap=+0.00e+00 mirror-grader=+0.00e+00 minEOD=   1.030 trades= 76 fok=0/49 unsettled=[] final=203.87
+OK  defensive seed= 3 gap=+1.82e-12 mirror-grader=+0.00e+00 minEOD=   0.520 trades= 68 fok=0/46 unsettled=[] final=10293.36
+OK  defensive seed= 4 gap=+0.00e+00 mirror-grader=+0.00e+00 minEOD=   0.680 trades= 73 fok=0/28 unsettled=[] final=21364.31
+OK  defensive seed= 5 gap=-1.82e-12 mirror-grader=+0.00e+00 minEOD=   1.910 trades= 75 fok=0/45 unsettled=[] final=11196.71
+OK  defensive seed= 6 gap=+1.82e-12 mirror-grader=+0.00e+00 minEOD=   0.210 trades= 94 fok=0/49 unsettled=[] final=10196.45
+OK  defensive seed= 7 gap=-3.64e-12 mirror-grader=+0.00e+00 minEOD=   0.200 trades=100 fok=0/35 unsettled=[] final=14836.52
+OK  defensive seed= 8 gap=+5.68e-14 mirror-grader=+0.00e+00 minEOD=   0.660 trades=101 fok=0/39 unsettled=[] final=278.70
+OK  defensive seed= 9 gap=+3.64e-12 mirror-grader=+0.00e+00 minEOD=   0.430 trades= 84 fok=0/42 unsettled=[] final=20140.21
+OK  defensive seed=10 gap=-5.68e-14 mirror-grader=+0.00e+00 minEOD=   0.320 trades=107 fok=0/48 unsettled=[] final=247.39
+OK  test19    seed= 1 gap=-4.55e-13 mirror-grader=+0.00e+00 minEOD=   0.800 trades= 81 fok=8/43 unsettled=[] final=3200.47
+OK  test19    seed= 2 gap=+2.18e-11 mirror-grader=+0.00e+00 minEOD=   0.960 trades= 64 fok=10/47 unsettled=[] final=40241.06
+OK  test19    seed= 3 gap=+2.18e-11 mirror-grader=+0.00e+00 minEOD=   0.861 trades= 69 fok=2/48 unsettled=[] final=40168.43
+OK  test19    seed= 4 gap=+0.00e+00 mirror-grader=+0.00e+00 minEOD=   0.803 trades= 71 fok=9/44 unsettled=[] final=81830.99
+OK  test19    seed= 5 gap=-7.28e-12 mirror-grader=+0.00e+00 minEOD=  17.200 trades=102 fok=11/51 unsettled=[] final=49209.65
+OK  test19    seed= 6 gap=+0.00e+00 mirror-grader=+0.00e+00 minEOD=   1.570 trades= 55 fok=6/50 unsettled=[] final=115.02
+OK  test19    seed= 7 gap=+5.68e-14 mirror-grader=+0.00e+00 minEOD=   0.880 trades= 97 fok=7/49 unsettled=[] final=372.84
+OK  test19    seed= 8 gap=-7.28e-12 mirror-grader=+0.00e+00 minEOD=   0.800 trades= 86 fok=8/46 unsettled=[] final=51312.91
+OK  test19    seed= 9 gap=-1.40e-11 mirror-grader=+0.00e+00 minEOD=   0.885 trades= 53 fok=9/44 unsettled=[] final=63.39
+OK  test19    seed=10 gap=+7.73e-12 mirror-grader=+0.00e+00 minEOD=   0.806 trades=122 fok=4/37 unsettled=[] final=1120.71
+
+worst per mode: {'generic': 1.4793499758525286e-11, 'defensive': 3.637978807091713e-12, 'test19': 2.1827872842550278e-11}
+grader day-end cash ever negative in worst runs: False
+FAILURES: 0

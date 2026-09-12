@@ -1,0 +1,7 @@
+25d seed101 cash10: flags=(False,False) transcript 255 events, deterministic=True, ext_end=1205.16, ext_min=0.44
+30d seed202 cash20: flags=(False,False) transcript 255 events, deterministic=True, ext_end=1305.24, ext_min=5.74
+35d seed303 cash40: flags=(False,False) transcript 259 events, deterministic=True, ext_end=1314.12, ext_min=32.52
+40d seed404 cash20: flags=(False,False) transcript 254 events, deterministic=True, ext_end=1204.52, ext_min=7.02
+45d seed505 cash40: flags=(False,False) transcript 255 events, deterministic=True, ext_end=1264.50, ext_min=25.56
+
+ALL DEFAULT-PATH CHECKS PASSED (flags inert, deterministic, no exceptions)

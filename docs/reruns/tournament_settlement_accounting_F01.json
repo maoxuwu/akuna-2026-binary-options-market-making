@@ -1,0 +1,1730 @@
+{
+"r_v11_cap|MX2_base+tight+SQ+FW10|base": {
+"reported": {
+"mean": 102.5,
+"se": 26.44,
+"min": 13.68,
+"wins": 5
+},
+"marked": {
+"mean": 102.5,
+"se": 26.44,
+"min": 13.68,
+"wins": 5
+},
+"settled": {
+"mean": 102.5,
+"se": 26.44,
+"min": 13.68,
+"wins": 5
+},
+"open_n": 0,
+"open_escrow": 0,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v11_cap|MX2_base+tight+SQ+FW10|tight": {
+"reported": {
+"mean": 108.0,
+"se": 30.47,
+"min": -2.11,
+"wins": 3
+},
+"marked": {
+"mean": 108.0,
+"se": 30.47,
+"min": -2.11,
+"wins": 3
+},
+"settled": {
+"mean": 108.0,
+"se": 30.47,
+"min": -2.11,
+"wins": 3
+},
+"open_n": 0,
+"open_escrow": 0,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v11_cap|MX2_base+tight+SQ+FW10|SQ": {
+"reported": {
+"mean": 19.98,
+"se": 14.28,
+"min": -16.63,
+"wins": 0
+},
+"marked": {
+"mean": 19.98,
+"se": 14.28,
+"min": -16.63,
+"wins": 0
+},
+"settled": {
+"mean": 19.98,
+"se": 14.28,
+"min": -16.63,
+"wins": 0
+},
+"open_n": 0,
+"open_escrow": 0,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v11_cap|MX2_base+tight+SQ+FW10|FW0.10": {
+"reported": {
+"mean": 6.6,
+"se": 9.1,
+"min": -49.72,
+"wins": 0
+},
+"marked": {
+"mean": 6.6,
+"se": 9.1,
+"min": -49.72,
+"wins": 0
+},
+"settled": {
+"mean": 6.6,
+"se": 9.1,
+"min": -49.72,
+"wins": 0
+},
+"open_n": 0,
+"open_escrow": 0,
+"bankrupt_d40": 8,
+"bankrupt_final": 8
+},
+"r_v11_cap|MX3_4clones+FW25+SQ|clone_a": {
+"reported": {
+"mean": 43.44,
+"se": 16.7,
+"min": -2.01,
+"wins": 2
+},
+"marked": {
+"mean": 43.44,
+"se": 16.7,
+"min": -2.01,
+"wins": 2
+},
+"settled": {
+"mean": 43.44,
+"se": 16.7,
+"min": -2.01,
+"wins": 2
+},
+"open_n": 0,
+"open_escrow": 0,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v11_cap|MX3_4clones+FW25+SQ|clone_b": {
+"reported": {
+"mean": 37.52,
+"se": 8.12,
+"min": 0.79,
+"wins": 1
+},
+"marked": {
+"mean": 37.52,
+"se": 8.12,
+"min": 0.79,
+"wins": 1
+},
+"settled": {
+"mean": 37.52,
+"se": 8.12,
+"min": 0.79,
+"wins": 1
+},
+"open_n": 0,
+"open_escrow": 0,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v11_cap|MX3_4clones+FW25+SQ|clone_c": {
+"reported": {
+"mean": 42.92,
+"se": 7.1,
+"min": 4.2,
+"wins": 1
+},
+"marked": {
+"mean": 42.92,
+"se": 7.1,
+"min": 4.2,
+"wins": 1
+},
+"settled": {
+"mean": 42.92,
+"se": 7.1,
+"min": 4.2,
+"wins": 1
+},
+"open_n": 0,
+"open_escrow": 0,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v11_cap|MX3_4clones+FW25+SQ|clone_d": {
+"reported": {
+"mean": 53.11,
+"se": 11.4,
+"min": 15.95,
+"wins": 2
+},
+"marked": {
+"mean": 53.11,
+"se": 11.4,
+"min": 15.95,
+"wins": 2
+},
+"settled": {
+"mean": 53.11,
+"se": 11.4,
+"min": 15.95,
+"wins": 2
+},
+"open_n": 0,
+"open_escrow": 0,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v11_cap|MX3_4clones+FW25+SQ|FW0.25": {
+"reported": {
+"mean": 26.8,
+"se": 26.84,
+"min": -36.68,
+"wins": 1
+},
+"marked": {
+"mean": 26.8,
+"se": 26.84,
+"min": -36.68,
+"wins": 1
+},
+"settled": {
+"mean": 26.8,
+"se": 26.84,
+"min": -36.68,
+"wins": 1
+},
+"open_n": 0,
+"open_escrow": 0,
+"bankrupt_d40": 7,
+"bankrupt_final": 7
+},
+"r_v11_cap|MX3_4clones+FW25+SQ|SQ": {
+"reported": {
+"mean": 7.32,
+"se": 9.68,
+"min": -16.67,
+"wins": 1
+},
+"marked": {
+"mean": 7.32,
+"se": 9.68,
+"min": -16.67,
+"wins": 1
+},
+"settled": {
+"mean": 7.32,
+"se": 9.68,
+"min": -16.67,
+"wins": 1
+},
+"open_n": 0,
+"open_escrow": 0,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v11_mx1|MX1_2clones+SQ+FW10+FW05|clone_a": {
+"reported": {
+"mean": 89.74,
+"se": 23.63,
+"min": 11.32,
+"wins": 5
+},
+"marked": {
+"mean": 105.49,
+"se": 25.6,
+"min": 11.45,
+"wins": 5
+},
+"settled": {
+"mean": 104.12,
+"se": 25.46,
+"min": 11.32,
+"wins": 5
+},
+"open_n": 4,
+"open_escrow": 12.94,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v11_mx1|MX1_2clones+SQ+FW10+FW05|clone_b": {
+"reported": {
+"mean": 88.69,
+"se": 26.12,
+"min": 9.13,
+"wins": 3
+},
+"marked": {
+"mean": 104.49,
+"se": 29.28,
+"min": 19.61,
+"wins": 3
+},
+"settled": {
+"mean": 102.06,
+"se": 28.94,
+"min": 16.13,
+"wins": 3
+},
+"open_n": 4.12,
+"open_escrow": 11.71,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v11_mx1|MX1_2clones+SQ+FW10+FW05|SQ": {
+"reported": {
+"mean": 16.58,
+"se": 5.18,
+"min": -5.67,
+"wins": 0
+},
+"marked": {
+"mean": 18.35,
+"se": 5.39,
+"min": -5.67,
+"wins": 0
+},
+"settled": {
+"mean": 17.45,
+"se": 5.0,
+"min": -5.67,
+"wins": 0
+},
+"open_n": 3.12,
+"open_escrow": 0.76,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v11_mx1|MX1_2clones+SQ+FW10+FW05|FW0.10": {
+"reported": {
+"mean": 4.1,
+"se": 7.09,
+"min": -25.48,
+"wins": 0
+},
+"marked": {
+"mean": 4.1,
+"se": 7.09,
+"min": -25.48,
+"wins": 0
+},
+"settled": {
+"mean": 4.1,
+"se": 7.09,
+"min": -25.48,
+"wins": 0
+},
+"open_n": 0,
+"open_escrow": 0,
+"bankrupt_d40": 8,
+"bankrupt_final": 8
+},
+"r_v11_mx1|MX1_2clones+SQ+FW10+FW05|FW0.05": {
+"reported": {
+"mean": -4.95,
+"se": 5.55,
+"min": -39.88,
+"wins": 0
+},
+"marked": {
+"mean": -4.95,
+"se": 5.55,
+"min": -39.88,
+"wins": 0
+},
+"settled": {
+"mean": -4.95,
+"se": 5.55,
+"min": -39.88,
+"wins": 0
+},
+"open_n": 0,
+"open_escrow": 0,
+"bankrupt_d40": 8,
+"bankrupt_final": 8
+},
+"r_v11_mx23|MX2_base+tight+SQ+FW10|base": {
+"reported": {
+"mean": 74.19,
+"se": 23.36,
+"min": -0.19,
+"wins": 3
+},
+"marked": {
+"mean": 103.47,
+"se": 25.2,
+"min": 13.21,
+"wins": 4
+},
+"settled": {
+"mean": 103.69,
+"se": 25.9,
+"min": 12.81,
+"wins": 4
+},
+"open_n": 4.5,
+"open_escrow": 21.13,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v11_mx23|MX2_base+tight+SQ+FW10|tight": {
+"reported": {
+"mean": 71.26,
+"se": 23.8,
+"min": -8.87,
+"wins": 3
+},
+"marked": {
+"mean": 108.32,
+"se": 28.58,
+"min": 1.47,
+"wins": 4
+},
+"settled": {
+"mean": 108.64,
+"se": 28.88,
+"min": 3.82,
+"wins": 4
+},
+"open_n": 4.88,
+"open_escrow": 27.6,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v11_mx23|MX2_base+tight+SQ+FW10|SQ": {
+"reported": {
+"mean": 14.95,
+"se": 10.3,
+"min": -10.77,
+"wins": 0
+},
+"marked": {
+"mean": 16.09,
+"se": 10.02,
+"min": -8.52,
+"wins": 0
+},
+"settled": {
+"mean": 16.45,
+"se": 9.96,
+"min": -10.77,
+"wins": 0
+},
+"open_n": 2.75,
+"open_escrow": 0.52,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v11_mx23|MX2_base+tight+SQ+FW10|FW0.10": {
+"reported": {
+"mean": 6.6,
+"se": 9.1,
+"min": -49.72,
+"wins": 2
+},
+"marked": {
+"mean": 6.6,
+"se": 9.1,
+"min": -49.72,
+"wins": 0
+},
+"settled": {
+"mean": 6.6,
+"se": 9.1,
+"min": -49.72,
+"wins": 0
+},
+"open_n": 0,
+"open_escrow": 0,
+"bankrupt_d40": 8,
+"bankrupt_final": 8
+},
+"r_v11_mx23|MX3_4clones+FW25+SQ|clone_a": {
+"reported": {
+"mean": 27.92,
+"se": 14.16,
+"min": -8.93,
+"wins": 2
+},
+"marked": {
+"mean": 48.44,
+"se": 15.87,
+"min": -5.37,
+"wins": 2
+},
+"settled": {
+"mean": 51.04,
+"se": 15.19,
+"min": -3.93,
+"wins": 2
+},
+"open_n": 4.75,
+"open_escrow": 13.92,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v11_mx23|MX3_4clones+FW25+SQ|clone_b": {
+"reported": {
+"mean": 17.19,
+"se": 7.48,
+"min": -7.12,
+"wins": 1
+},
+"marked": {
+"mean": 40.27,
+"se": 9.42,
+"min": 4.68,
+"wins": 2
+},
+"settled": {
+"mean": 42.69,
+"se": 11.34,
+"min": 7.88,
+"wins": 2
+},
+"open_n": 4.62,
+"open_escrow": 15.54,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v11_mx23|MX3_4clones+FW25+SQ|clone_c": {
+"reported": {
+"mean": 24.0,
+"se": 7.66,
+"min": 3.47,
+"wins": 1
+},
+"marked": {
+"mean": 40.91,
+"se": 6.82,
+"min": 8.72,
+"wins": 1
+},
+"settled": {
+"mean": 40.75,
+"se": 6.94,
+"min": 8.47,
+"wins": 1
+},
+"open_n": 4.25,
+"open_escrow": 12.21,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v11_mx23|MX3_4clones+FW25+SQ|clone_d": {
+"reported": {
+"mean": 33.29,
+"se": 8.4,
+"min": 1.58,
+"wins": 2
+},
+"marked": {
+"mean": 56.17,
+"se": 9.27,
+"min": 25.72,
+"wins": 2
+},
+"settled": {
+"mean": 56.16,
+"se": 9.32,
+"min": 23.54,
+"wins": 2
+},
+"open_n": 5.62,
+"open_escrow": 16.64,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v11_mx23|MX3_4clones+FW25+SQ|FW0.25": {
+"reported": {
+"mean": 20.18,
+"se": 20.43,
+"min": -36.68,
+"wins": 2
+},
+"marked": {
+"mean": 26.35,
+"se": 26.4,
+"min": -36.68,
+"wins": 1
+},
+"settled": {
+"mean": 26.43,
+"se": 26.48,
+"min": -36.68,
+"wins": 1
+},
+"open_n": 0.62,
+"open_escrow": 3.86,
+"bankrupt_d40": 7,
+"bankrupt_final": 7
+},
+"r_v11_mx23|MX3_4clones+FW25+SQ|SQ": {
+"reported": {
+"mean": 0.42,
+"se": 2.95,
+"min": -12.88,
+"wins": 0
+},
+"marked": {
+"mean": 2.44,
+"se": 3.32,
+"min": -11.71,
+"wins": 0
+},
+"settled": {
+"mean": 5.55,
+"se": 6.08,
+"min": -12.88,
+"wins": 0
+},
+"open_n": 3.75,
+"open_escrow": 0.99,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v13_all|SP_mirror|solution_v13.py_a": {
+"reported": {
+"mean": 40.0,
+"se": 13.86,
+"min": -0.43,
+"wins": 0
+},
+"marked": {
+"mean": 53.96,
+"se": 13.77,
+"min": 17.76,
+"wins": 0
+},
+"settled": {
+"mean": 53.38,
+"se": 13.96,
+"min": 17.57,
+"wins": 0
+},
+"open_n": 4.62,
+"open_escrow": 10.17,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v13_all|SP_mirror|solution_v13.py_b": {
+"reported": {
+"mean": 47.49,
+"se": 13.48,
+"min": -12.22,
+"wins": 2
+},
+"marked": {
+"mean": 58.47,
+"se": 13.86,
+"min": -5.97,
+"wins": 2
+},
+"settled": {
+"mean": 57.74,
+"se": 13.69,
+"min": -4.22,
+"wins": 3
+},
+"open_n": 4.5,
+"open_escrow": 8.91,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v13_all|SP_mirror|solution_v13.py_c": {
+"reported": {
+"mean": 53.34,
+"se": 17.76,
+"min": 2.33,
+"wins": 4
+},
+"marked": {
+"mean": 79.97,
+"se": 22.62,
+"min": 4.35,
+"wins": 4
+},
+"settled": {
+"mean": 79.96,
+"se": 22.96,
+"min": 4.33,
+"wins": 4
+},
+"open_n": 4.75,
+"open_escrow": 18.33,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v13_all|SP_mirror|solution_v13.py_d": {
+"reported": {
+"mean": 58.11,
+"se": 11.85,
+"min": 10.45,
+"wins": 2
+},
+"marked": {
+"mean": 74.69,
+"se": 12.34,
+"min": 32.09,
+"wins": 2
+},
+"settled": {
+"mean": 75.23,
+"se": 12.86,
+"min": 32.45,
+"wins": 1
+},
+"open_n": 4.88,
+"open_escrow": 12.51,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v13_all|SP_hetero|base": {
+"reported": {
+"mean": 42.18,
+"se": 18.12,
+"min": 1.98,
+"wins": 2
+},
+"marked": {
+"mean": 60.89,
+"se": 17.58,
+"min": 22.47,
+"wins": 2
+},
+"settled": {
+"mean": 60.93,
+"se": 17.6,
+"min": 23.42,
+"wins": 2
+},
+"open_n": 5.12,
+"open_escrow": 13.87,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v13_all|SP_hetero|tight": {
+"reported": {
+"mean": 40.98,
+"se": 16.59,
+"min": -5.67,
+"wins": 1
+},
+"marked": {
+"mean": 57.51,
+"se": 17.16,
+"min": 8.24,
+"wins": 1
+},
+"settled": {
+"mean": 55.98,
+"se": 17.6,
+"min": 5.92,
+"wins": 1
+},
+"open_n": 5.5,
+"open_escrow": 12.58,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v13_all|SP_hetero|wide": {
+"reported": {
+"mean": 57.2,
+"se": 13.04,
+"min": 19.38,
+"wins": 4
+},
+"marked": {
+"mean": 78.79,
+"se": 15.38,
+"min": 30.84,
+"wins": 4
+},
+"settled": {
+"mean": 80.07,
+"se": 16.54,
+"min": 30.38,
+"wins": 4
+},
+"open_n": 4.75,
+"open_escrow": 15.09,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v13_all|SP_hetero|no_extract": {
+"reported": {
+"mean": 31.6,
+"se": 11.17,
+"min": -3.35,
+"wins": 1
+},
+"marked": {
+"mean": 53.82,
+"se": 14.83,
+"min": 5.03,
+"wins": 1
+},
+"settled": {
+"mean": 53.85,
+"se": 14.9,
+"min": 10.65,
+"wins": 1
+},
+"open_n": 5.38,
+"open_escrow": 16.98,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v13_all|MX1_2clones+SQ+FW10+FW05|clone_a": {
+"reported": {
+"mean": 89.74,
+"se": 23.63,
+"min": 11.32,
+"wins": 5
+},
+"marked": {
+"mean": 105.49,
+"se": 25.6,
+"min": 11.45,
+"wins": 5
+},
+"settled": {
+"mean": 104.12,
+"se": 25.46,
+"min": 11.32,
+"wins": 5
+},
+"open_n": 4,
+"open_escrow": 12.94,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v13_all|MX1_2clones+SQ+FW10+FW05|clone_b": {
+"reported": {
+"mean": 88.69,
+"se": 26.12,
+"min": 9.13,
+"wins": 3
+},
+"marked": {
+"mean": 104.49,
+"se": 29.28,
+"min": 19.61,
+"wins": 3
+},
+"settled": {
+"mean": 102.06,
+"se": 28.94,
+"min": 16.13,
+"wins": 3
+},
+"open_n": 4.12,
+"open_escrow": 11.71,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v13_all|MX1_2clones+SQ+FW10+FW05|SQ": {
+"reported": {
+"mean": 16.58,
+"se": 5.18,
+"min": -5.67,
+"wins": 0
+},
+"marked": {
+"mean": 18.35,
+"se": 5.39,
+"min": -5.67,
+"wins": 0
+},
+"settled": {
+"mean": 17.45,
+"se": 5.0,
+"min": -5.67,
+"wins": 0
+},
+"open_n": 3.12,
+"open_escrow": 0.76,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v13_all|MX1_2clones+SQ+FW10+FW05|FW0.10": {
+"reported": {
+"mean": 4.1,
+"se": 7.09,
+"min": -25.48,
+"wins": 0
+},
+"marked": {
+"mean": 4.1,
+"se": 7.09,
+"min": -25.48,
+"wins": 0
+},
+"settled": {
+"mean": 4.1,
+"se": 7.09,
+"min": -25.48,
+"wins": 0
+},
+"open_n": 0,
+"open_escrow": 0,
+"bankrupt_d40": 8,
+"bankrupt_final": 8
+},
+"r_v13_all|MX1_2clones+SQ+FW10+FW05|FW0.05": {
+"reported": {
+"mean": -4.95,
+"se": 5.55,
+"min": -39.88,
+"wins": 0
+},
+"marked": {
+"mean": -4.95,
+"se": 5.55,
+"min": -39.88,
+"wins": 0
+},
+"settled": {
+"mean": -4.95,
+"se": 5.55,
+"min": -39.88,
+"wins": 0
+},
+"open_n": 0,
+"open_escrow": 0,
+"bankrupt_d40": 8,
+"bankrupt_final": 8
+},
+"r_v13_all|MX2_base+tight+SQ+FW10|base": {
+"reported": {
+"mean": 74.19,
+"se": 23.36,
+"min": -0.19,
+"wins": 3
+},
+"marked": {
+"mean": 103.47,
+"se": 25.2,
+"min": 13.21,
+"wins": 4
+},
+"settled": {
+"mean": 103.69,
+"se": 25.9,
+"min": 12.81,
+"wins": 4
+},
+"open_n": 4.5,
+"open_escrow": 21.13,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v13_all|MX2_base+tight+SQ+FW10|tight": {
+"reported": {
+"mean": 71.26,
+"se": 23.8,
+"min": -8.87,
+"wins": 3
+},
+"marked": {
+"mean": 108.32,
+"se": 28.58,
+"min": 1.47,
+"wins": 4
+},
+"settled": {
+"mean": 108.64,
+"se": 28.88,
+"min": 3.82,
+"wins": 4
+},
+"open_n": 4.88,
+"open_escrow": 27.6,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v13_all|MX2_base+tight+SQ+FW10|SQ": {
+"reported": {
+"mean": 14.95,
+"se": 10.3,
+"min": -10.77,
+"wins": 0
+},
+"marked": {
+"mean": 16.09,
+"se": 10.02,
+"min": -8.52,
+"wins": 0
+},
+"settled": {
+"mean": 16.45,
+"se": 9.96,
+"min": -10.77,
+"wins": 0
+},
+"open_n": 2.75,
+"open_escrow": 0.52,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v13_all|MX2_base+tight+SQ+FW10|FW0.10": {
+"reported": {
+"mean": 6.6,
+"se": 9.1,
+"min": -49.72,
+"wins": 2
+},
+"marked": {
+"mean": 6.6,
+"se": 9.1,
+"min": -49.72,
+"wins": 0
+},
+"settled": {
+"mean": 6.6,
+"se": 9.1,
+"min": -49.72,
+"wins": 0
+},
+"open_n": 0,
+"open_escrow": 0,
+"bankrupt_d40": 8,
+"bankrupt_final": 8
+},
+"r_v13_all|MX3_4clones+FW25+SQ|clone_a": {
+"reported": {
+"mean": 25.51,
+"se": 13.95,
+"min": -8.93,
+"wins": 2
+},
+"marked": {
+"mean": 46.17,
+"se": 15.71,
+"min": -5.37,
+"wins": 2
+},
+"settled": {
+"mean": 48.76,
+"se": 14.9,
+"min": -3.93,
+"wins": 2
+},
+"open_n": 4.62,
+"open_escrow": 14.09,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v13_all|MX3_4clones+FW25+SQ|clone_b": {
+"reported": {
+"mean": 18.29,
+"se": 8.42,
+"min": -7.12,
+"wins": 1
+},
+"marked": {
+"mean": 41.37,
+"se": 10.06,
+"min": 4.68,
+"wins": 2
+},
+"settled": {
+"mean": 43.79,
+"se": 11.93,
+"min": 7.88,
+"wins": 2
+},
+"open_n": 4.62,
+"open_escrow": 15.54,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v13_all|MX3_4clones+FW25+SQ|clone_c": {
+"reported": {
+"mean": 23.62,
+"se": 7.66,
+"min": 3.47,
+"wins": 1
+},
+"marked": {
+"mean": 40.02,
+"se": 6.82,
+"min": 8.72,
+"wins": 1
+},
+"settled": {
+"mean": 39.87,
+"se": 6.83,
+"min": 8.47,
+"wins": 1
+},
+"open_n": 4.25,
+"open_escrow": 11.75,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v13_all|MX3_4clones+FW25+SQ|clone_d": {
+"reported": {
+"mean": 33.84,
+"se": 8.52,
+"min": 1.58,
+"wins": 2
+},
+"marked": {
+"mean": 56.72,
+"se": 9.36,
+"min": 25.72,
+"wins": 2
+},
+"settled": {
+"mean": 56.72,
+"se": 9.47,
+"min": 23.54,
+"wins": 2
+},
+"open_n": 5.62,
+"open_escrow": 16.64,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v13_all|MX3_4clones+FW25+SQ|FW0.25": {
+"reported": {
+"mean": 20.18,
+"se": 20.43,
+"min": -36.68,
+"wins": 2
+},
+"marked": {
+"mean": 26.35,
+"se": 26.4,
+"min": -36.68,
+"wins": 1
+},
+"settled": {
+"mean": 26.43,
+"se": 26.48,
+"min": -36.68,
+"wins": 1
+},
+"open_n": 0.62,
+"open_escrow": 3.86,
+"bankrupt_d40": 7,
+"bankrupt_final": 7
+},
+"r_v13_all|MX3_4clones+FW25+SQ|SQ": {
+"reported": {
+"mean": 1.19,
+"se": 3.31,
+"min": -12.88,
+"wins": 0
+},
+"marked": {
+"mean": 3.2,
+"se": 3.59,
+"min": -11.71,
+"wins": 0
+},
+"settled": {
+"mean": 6.31,
+"se": 6.17,
+"min": -12.88,
+"wins": 0
+},
+"open_n": 3.75,
+"open_escrow": 0.99,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v13_all|CODEX_probe|baseline": {
+"reported": {
+"mean": 83.46,
+"se": 18.17,
+"min": 9.62,
+"wins": 8
+},
+"marked": {
+"mean": 107.53,
+"se": 19.65,
+"min": 23.46,
+"wins": 6
+},
+"settled": {
+"mean": 107.84,
+"se": 20.18,
+"min": 19.62,
+"wins": 6
+},
+"open_n": 4.62,
+"open_escrow": 17.34,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v13_all|CODEX_probe|tight": {
+"reported": {
+"mean": 43.56,
+"se": 14.54,
+"min": -6.24,
+"wins": 0
+},
+"marked": {
+"mean": 69.01,
+"se": 13.74,
+"min": 13.94,
+"wins": 1
+},
+"settled": {
+"mean": 69.93,
+"se": 14.03,
+"min": 14.38,
+"wins": 1
+},
+"open_n": 4.62,
+"open_escrow": 18.29,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v13_all|CODEX_probe|wide": {
+"reported": {
+"mean": 58.31,
+"se": 16.55,
+"min": -9.25,
+"wins": 0
+},
+"marked": {
+"mean": 78.44,
+"se": 20.28,
+"min": 3.0,
+"wins": 1
+},
+"settled": {
+"mean": 78.06,
+"se": 21.43,
+"min": -0.25,
+"wins": 1
+},
+"open_n": 4,
+"open_escrow": 15.23,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v13_all|CODEX_probe|fixed_width": {
+"reported": {
+"mean": 3.92,
+"se": 9.91,
+"min": -58.66,
+"wins": 0
+},
+"marked": {
+"mean": 3.92,
+"se": 9.91,
+"min": -58.66,
+"wins": 0
+},
+"settled": {
+"mean": 3.92,
+"se": 9.91,
+"min": -58.66,
+"wins": 0
+},
+"open_n": 0,
+"open_escrow": 0,
+"bankrupt_d40": 8,
+"bankrupt_final": 8
+},
+"r_v13_cap|SP_hetero|base": {
+"reported": {
+"mean": 58.39,
+"se": 18.74,
+"min": 17.96,
+"wins": 2
+},
+"marked": {
+"mean": 58.39,
+"se": 18.74,
+"min": 17.96,
+"wins": 2
+},
+"settled": {
+"mean": 58.39,
+"se": 18.74,
+"min": 17.96,
+"wins": 2
+},
+"open_n": 0,
+"open_escrow": 0,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v13_cap|SP_hetero|tight": {
+"reported": {
+"mean": 61.11,
+"se": 19.61,
+"min": 1.87,
+"wins": 1
+},
+"marked": {
+"mean": 61.11,
+"se": 19.61,
+"min": 1.87,
+"wins": 1
+},
+"settled": {
+"mean": 61.11,
+"se": 19.61,
+"min": 1.87,
+"wins": 1
+},
+"open_n": 0,
+"open_escrow": 0,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v13_cap|SP_hetero|wide": {
+"reported": {
+"mean": 83.75,
+"se": 15.13,
+"min": 30.8,
+"wins": 4
+},
+"marked": {
+"mean": 83.75,
+"se": 15.13,
+"min": 30.8,
+"wins": 4
+},
+"settled": {
+"mean": 83.75,
+"se": 15.13,
+"min": 30.8,
+"wins": 4
+},
+"open_n": 0,
+"open_escrow": 0,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v13_cap|SP_hetero|no_extract": {
+"reported": {
+"mean": 56.99,
+"se": 15.5,
+"min": 3.29,
+"wins": 1
+},
+"marked": {
+"mean": 56.99,
+"se": 15.5,
+"min": 3.29,
+"wins": 1
+},
+"settled": {
+"mean": 56.99,
+"se": 15.5,
+"min": 3.29,
+"wins": 1
+},
+"open_n": 0,
+"open_escrow": 0,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v13_cap|MX2_base+tight+SQ+FW10|base": {
+"reported": {
+"mean": 102.5,
+"se": 26.44,
+"min": 13.68,
+"wins": 5
+},
+"marked": {
+"mean": 102.5,
+"se": 26.44,
+"min": 13.68,
+"wins": 5
+},
+"settled": {
+"mean": 102.5,
+"se": 26.44,
+"min": 13.68,
+"wins": 5
+},
+"open_n": 0,
+"open_escrow": 0,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v13_cap|MX2_base+tight+SQ+FW10|tight": {
+"reported": {
+"mean": 108.0,
+"se": 30.47,
+"min": -2.11,
+"wins": 3
+},
+"marked": {
+"mean": 108.0,
+"se": 30.47,
+"min": -2.11,
+"wins": 3
+},
+"settled": {
+"mean": 108.0,
+"se": 30.47,
+"min": -2.11,
+"wins": 3
+},
+"open_n": 0,
+"open_escrow": 0,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v13_cap|MX2_base+tight+SQ+FW10|SQ": {
+"reported": {
+"mean": 19.98,
+"se": 14.28,
+"min": -16.63,
+"wins": 0
+},
+"marked": {
+"mean": 19.98,
+"se": 14.28,
+"min": -16.63,
+"wins": 0
+},
+"settled": {
+"mean": 19.98,
+"se": 14.28,
+"min": -16.63,
+"wins": 0
+},
+"open_n": 0,
+"open_escrow": 0,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v13_cap|MX2_base+tight+SQ+FW10|FW0.10": {
+"reported": {
+"mean": 6.6,
+"se": 9.1,
+"min": -49.72,
+"wins": 0
+},
+"marked": {
+"mean": 6.6,
+"se": 9.1,
+"min": -49.72,
+"wins": 0
+},
+"settled": {
+"mean": 6.6,
+"se": 9.1,
+"min": -49.72,
+"wins": 0
+},
+"open_n": 0,
+"open_escrow": 0,
+"bankrupt_d40": 8,
+"bankrupt_final": 8
+},
+"r_v7_cap|SP_hetero|base": {
+"reported": {
+"mean": 63.36,
+"se": 16.49,
+"min": 10.66,
+"wins": 1
+},
+"marked": {
+"mean": 63.36,
+"se": 16.49,
+"min": 10.66,
+"wins": 1
+},
+"settled": {
+"mean": 63.36,
+"se": 16.49,
+"min": 10.66,
+"wins": 1
+},
+"open_n": 0,
+"open_escrow": 0,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v7_cap|SP_hetero|tight": {
+"reported": {
+"mean": 54.11,
+"se": 21.56,
+"min": -11.13,
+"wins": 2
+},
+"marked": {
+"mean": 54.11,
+"se": 21.56,
+"min": -11.13,
+"wins": 2
+},
+"settled": {
+"mean": 54.11,
+"se": 21.56,
+"min": -11.13,
+"wins": 2
+},
+"open_n": 0,
+"open_escrow": 0,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v7_cap|SP_hetero|wide": {
+"reported": {
+"mean": 86.87,
+"se": 14.72,
+"min": 37.81,
+"wins": 5
+},
+"marked": {
+"mean": 86.87,
+"se": 14.72,
+"min": 37.81,
+"wins": 5
+},
+"settled": {
+"mean": 86.87,
+"se": 14.72,
+"min": 37.81,
+"wins": 5
+},
+"open_n": 0,
+"open_escrow": 0,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v7_cap|SP_hetero|no_extract": {
+"reported": {
+"mean": 52.7,
+"se": 14.7,
+"min": 7.62,
+"wins": 0
+},
+"marked": {
+"mean": 52.7,
+"se": 14.7,
+"min": 7.62,
+"wins": 0
+},
+"settled": {
+"mean": 52.7,
+"se": 14.7,
+"min": 7.62,
+"wins": 0
+},
+"open_n": 0,
+"open_escrow": 0,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v7_sp_hetero|SP_hetero|base": {
+"reported": {
+"mean": 44.15,
+"se": 15.73,
+"min": 0.93,
+"wins": 2
+},
+"marked": {
+"mean": 59.49,
+"se": 16.34,
+"min": 7.81,
+"wins": 2
+},
+"settled": {
+"mean": 59.27,
+"se": 16.48,
+"min": 6.93,
+"wins": 2
+},
+"open_n": 4.88,
+"open_escrow": 11.56,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v7_sp_hetero|SP_hetero|tight": {
+"reported": {
+"mean": 36.8,
+"se": 18.07,
+"min": -15.1,
+"wins": 1
+},
+"marked": {
+"mean": 51.91,
+"se": 19.47,
+"min": -7.4,
+"wins": 1
+},
+"settled": {
+"mean": 49.8,
+"se": 19.49,
+"min": -7.1,
+"wins": 1
+},
+"open_n": 5.62,
+"open_escrow": 11.25,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v7_sp_hetero|SP_hetero|wide": {
+"reported": {
+"mean": 61.44,
+"se": 12.0,
+"min": 30.33,
+"wins": 5
+},
+"marked": {
+"mean": 84.52,
+"se": 14.91,
+"min": 33.47,
+"wins": 4
+},
+"settled": {
+"mean": 85.82,
+"se": 16.32,
+"min": 33.33,
+"wins": 5
+},
+"open_n": 4.75,
+"open_escrow": 16.02,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v7_sp_hetero|SP_hetero|no_extract": {
+"reported": {
+"mean": 29.31,
+"se": 12.83,
+"min": -3.78,
+"wins": 0
+},
+"marked": {
+"mean": 51.46,
+"se": 12.7,
+"min": 14.53,
+"wins": 1
+},
+"settled": {
+"mean": 51.44,
+"se": 12.8,
+"min": 13.22,
+"wins": 0
+},
+"open_n": 6.38,
+"open_escrow": 17.34,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v7_sp_mirror|SP_mirror|solution_v7.py_a": {
+"reported": {
+"mean": 35.49,
+"se": 14.44,
+"min": -3.34,
+"wins": 1
+},
+"marked": {
+"mean": 52.52,
+"se": 13.86,
+"min": 14.45,
+"wins": 0
+},
+"settled": {
+"mean": 51.99,
+"se": 13.9,
+"min": 16.61,
+"wins": 0
+},
+"open_n": 4.5,
+"open_escrow": 12.23,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v7_sp_mirror|SP_mirror|solution_v7.py_b": {
+"reported": {
+"mean": 45.44,
+"se": 13.74,
+"min": -6.13,
+"wins": 2
+},
+"marked": {
+"mean": 58.93,
+"se": 13.5,
+"min": 2.39,
+"wins": 3
+},
+"settled": {
+"mean": 58.44,
+"se": 14.05,
+"min": 1.87,
+"wins": 3
+},
+"open_n": 5.25,
+"open_escrow": 10.23,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v7_sp_mirror|SP_mirror|solution_v7.py_c": {
+"reported": {
+"mean": 61.62,
+"se": 15.82,
+"min": 10.31,
+"wins": 5
+},
+"marked": {
+"mean": 87.64,
+"se": 20.49,
+"min": 16.99,
+"wins": 5
+},
+"settled": {
+"mean": 89.12,
+"se": 21.04,
+"min": 17.31,
+"wins": 5
+},
+"open_n": 5.38,
+"open_escrow": 17.95,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+},
+"r_v7_sp_mirror|SP_mirror|solution_v7.py_d": {
+"reported": {
+"mean": 46.27,
+"se": 12.29,
+"min": 10.89,
+"wins": 0
+},
+"marked": {
+"mean": 61.22,
+"se": 13.5,
+"min": 27.44,
+"wins": 0
+},
+"settled": {
+"mean": 60.4,
+"se": 13.95,
+"min": 27.18,
+"wins": 0
+},
+"open_n": 4.88,
+"open_escrow": 10.96,
+"bankrupt_d40": 0,
+"bankrupt_final": 0
+}
+}

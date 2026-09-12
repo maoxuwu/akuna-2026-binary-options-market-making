@@ -1,0 +1,12 @@
+== cases where a side priced at 0.02/0.98 committed >30% of mirror (branch attribution) ==
+  nofill=0 m=0.05 theo=0.05 bid=0.02 x1 commit=0.020 (40%) normal_bid=0.02 forced_extreme_branch=False
+  nofill=0 m=0.05 theo=0.95 offer=0.98 x1 commit=0.020 (40%) normal_offer=0.98 forced_extreme_branch=False
+  nofill=1 m=0.05 theo=0.11 bid=0.02 x1 commit=0.020 (40%) normal_bid=0.08 forced_extreme_branch=True
+  nofill=1 m=0.05 theo=0.89 offer=0.98 x1 commit=0.020 (40%) normal_offer=0.92 forced_extreme_branch=True
+  nofill=5 m=0.05 theo=0.05 bid=0.02 x1 commit=0.020 (40%) normal_bid=0.02 forced_extreme_branch=False
+  nofill=5 m=0.05 theo=0.95 offer=0.98 x1 commit=0.020 (40%) normal_offer=0.98 forced_extreme_branch=False
+forced-extreme sides evaluated: 59600; commits above 30% of mirror: 1749
+tier0 heavy=0.45: largest mirror with a side commit >30% = $1.49 (0.48, 'bid', Quote(bid_price=0.45, bid_quantity=1, offer_price=0.98, offer_quantity=22))
+                           largest mirror with a side commit >40% = $1.12 (0.48, 'bid', Quote(bid_price=0.45, bid_quantity=1, offer_price=0.98, offer_quantity=16))
+mid/competitive heavy=10: largest mirror with a side commit >30% = $2.99 (0.01, 'offer', Quote(bid_price=0.0, bid_quantity=10, offer_price=0.1, offer_quantity=1))
+                           largest mirror with a side commit >40% = $2.24 (0.01, 'offer', Quote(bid_price=0.0, bid_quantity=10, offer_price=0.1, offer_quantity=1))

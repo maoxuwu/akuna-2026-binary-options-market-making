@@ -1,0 +1,2 @@
+v12 (pre-E51) vs v13 (final) under the original harness driver, warm-ups 15..45 (7 lengths) x 3 regimes x 20 seeds: identical P&L and rank in 420/420 paired sessions; fills identical in 420/420.
+Seam-closed driver at 250-day warm-up (seam/ident): 120/120 identical (40 seeds x 3 regimes) under both drivers.

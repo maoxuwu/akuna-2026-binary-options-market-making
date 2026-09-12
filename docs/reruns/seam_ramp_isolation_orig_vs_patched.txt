@@ -1,0 +1,8 @@
+Ramp isolation (writeup §5, docs/line_a_engineering.md): 30 paired seeds x 3 regimes, ramp on (size_ramp_mult=1.0) vs off (0.0)
+harness   regime     delta(on-off)    se neg pairs  pos zero bk_on bk_off  mean_on mean_off
+original  calm_dumb          -1.02  3.61        11   11    8     0      0   284.97   285.99
+original  mixed              +2.42  2.12         8   14    8     0      0   118.08   115.66
+original  toxic              +0.18  0.13         4    4   22     0      0    20.44    20.25
+patched   calm_dumb          -0.48  1.48         6   15    9     0      0   298.54   299.02
+patched   mixed              +1.78  1.22        10   14    6     0      0   128.17   126.39
+patched   toxic              +0.00  0.12         5    3   22     0      0    23.07    23.07

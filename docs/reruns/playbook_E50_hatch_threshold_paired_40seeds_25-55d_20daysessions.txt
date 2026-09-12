@@ -1,0 +1,13 @@
+sessions: 720 | changed by E50: 720 | new bankruptcies: 0
+ALL     : n=720 mean +1.98 +- 0.67  rank_net +31
+warmup25: n=120 mean +3.90 +- 1.86  rank_net +24
+warmup30: n=120 mean +5.38 +- 1.57  rank_net +7
+warmup35: n=120 mean +0.20 +- 1.70  rank_net +6
+warmup40: n=120 mean +2.55 +- 1.29  rank_net -7
+warmup45: n=120 mean -2.17 +- 1.89  rank_net +7
+warmup55: n=120 mean +2.04 +- 1.45  rank_net -6
+calm    : n=240 mean +2.09 +- 1.23  rank_net +14
+mixed   : n=240 mean +3.34 +- 1.20  rank_net +13
+toxic   : n=240 mean +0.51 +- 1.06  rank_net +4
+worst: [('w45-228-toxic', -96.52), ('w45-232-calm', -78.18), ('w35-221-toxic', -59.64), ('w35-212-calm', -53.76), ('w35-218-mixed', -52.62)]
+best : [('w25-227-calm', 109.11), ('w30-201-mixed', 92.22), ('w45-239-calm', 85.67), ('w25-217-mixed', 64.68), ('w55-210-toxic', 60.72)]

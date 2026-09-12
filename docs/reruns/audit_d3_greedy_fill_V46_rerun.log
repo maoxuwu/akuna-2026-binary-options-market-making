@@ -1,0 +1,30 @@
+cash=  10 seed=1   drain    d=20  tr=346  fok=5   final=1380408.21 minDayEnd=      0.2 minIntra=      0.2 minMirror=     0.2 (res=0.20) pos<=1000000 viol=0 exc=0 consGap=0.00e+00 flags=(False, False) ok
+cash=  10 seed=1   adverse  d=20  tr=344  fok=1   final=      0.2 minDayEnd=      0.2 minIntra=      0.2 minMirror=     0.2 (res=0.20) pos<=130000  viol=0 exc=0 consGap=0.00e+00 flags=(False, False) ok
+cash=  10 seed=2   drain    d=30  tr=502  fok=3   final=3118699.21 minDayEnd=      0.2 minIntra=      0.2 minMirror=     0.2 (res=0.20) pos<=2000000 viol=0 exc=0 consGap=0.00e+00 flags=(False, False) ok
+cash=  10 seed=2   adverse  d=30  tr=496  fok=0   final=      0.2 minDayEnd=      0.2 minIntra=      0.2 minMirror=     0.2 (res=0.20) pos<=130000  viol=0 exc=0 consGap=0.00e+00 flags=(False, False) ok
+cash=  10 seed=3   drain    d=45  tr=781  fok=4   final=1496314.2 minDayEnd=      0.2 minIntra=      0.2 minMirror=     0.2 (res=0.20) pos<=2251011 viol=0 exc=0 consGap=0.00e+00 flags=(False, False) ok
+cash=  10 seed=3   adverse  d=45  tr=779  fok=2   final=      0.2 minDayEnd=      0.2 minIntra=      0.2 minMirror=     0.2 (res=0.20) pos<=150000  viol=0 exc=0 consGap=0.00e+00 flags=(False, False) ok
+cash=  10 seed=4   drain    d=25  tr=422  fok=2   final= 615058.2 minDayEnd=      0.2 minIntra=      0.2 minMirror=     0.2 (res=0.20) pos<=972963  viol=0 exc=0 consGap=0.00e+00 flags=(False, False) ok
+cash=  10 seed=4   adverse  d=25  tr=420  fok=0   final=      0.2 minDayEnd=      0.2 minIntra=      0.2 minMirror=     0.2 (res=0.20) pos<=120000  viol=0 exc=0 consGap=0.00e+00 flags=(False, False) ok
+cash=  20 seed=1   drain    d=20  tr=347  fok=2   final=4023709.4 minDayEnd=     0.42 minIntra=      0.4 minMirror=     0.4 (res=0.40) pos<=2119984 viol=0 exc=0 consGap=0.00e+00 flags=(False, False) ok
+cash=  20 seed=1   adverse  d=20  tr=342  fok=1   final=      0.4 minDayEnd=      0.4 minIntra=      0.4 minMirror=     0.4 (res=0.40) pos<=240000  viol=0 exc=0 consGap=0.00e+00 flags=(False, False) ok
+cash=  20 seed=2   drain    d=30  tr=500  fok=5   final=4478754.4 minDayEnd=      0.4 minIntra=      0.4 minMirror=     0.4 (res=0.40) pos<=2059997 viol=0 exc=0 consGap=0.00e+00 flags=(False, False) ok
+cash=  20 seed=2   adverse  d=30  tr=498  fok=2   final=      0.4 minDayEnd=      0.4 minIntra=      0.4 minMirror=     0.4 (res=0.40) pos<=240000  viol=0 exc=0 consGap=0.00e+00 flags=(False, False) ok
+cash=  20 seed=3   drain    d=45  tr=780  fok=3   final=2663556.4 minDayEnd=      0.4 minIntra=      0.4 minMirror=     0.4 (res=0.40) pos<=3060000 viol=0 exc=0 consGap=0.00e+00 flags=(False, False) ok
+cash=  20 seed=3   adverse  d=45  tr=777  fok=0   final=      0.4 minDayEnd=      0.4 minIntra=      0.4 minMirror=     0.4 (res=0.40) pos<=300000  viol=0 exc=0 consGap=0.00e+00 flags=(False, False) ok
+cash=  20 seed=4   drain    d=25  tr=425  fok=3   final=3039107.4 minDayEnd=      0.4 minIntra=      0.4 minMirror=     0.4 (res=0.40) pos<=1091682 viol=0 exc=0 consGap=0.00e+00 flags=(False, False) ok
+cash=  20 seed=4   adverse  d=25  tr=420  fok=0   final=      0.4 minDayEnd=      0.4 minIntra=      0.4 minMirror=     0.4 (res=0.40) pos<=240000  viol=0 exc=0 consGap=0.00e+00 flags=(False, False) ok
+cash=  40 seed=1   drain    d=20  tr=346  fok=5   final=3651780.81 minDayEnd=      0.8 minIntra=      0.8 minMirror=     0.8 (res=0.80) pos<=2420600 viol=0 exc=0 consGap=0.00e+00 flags=(False, False) ok
+cash=  40 seed=1   adverse  d=20  tr=344  fok=1   final=      0.8 minDayEnd=      0.8 minIntra=      0.8 minMirror=     0.8 (res=0.80) pos<=520000  viol=0 exc=0 consGap=0.00e+00 flags=(False, False) ok
+cash=  40 seed=2   drain    d=30  tr=502  fok=4   final=8769695.81 minDayEnd=      0.8 minIntra=      0.8 minMirror=     0.8 (res=0.80) pos<=3160000 viol=0 exc=0 consGap=0.00e+00 flags=(False, False) ok
+cash=  40 seed=2   adverse  d=30  tr=498  fok=2   final=      0.8 minDayEnd=      0.8 minIntra=      0.8 minMirror=     0.8 (res=0.80) pos<=480000  viol=0 exc=0 consGap=0.00e+00 flags=(False, False) ok
+cash=  40 seed=3   drain    d=45  tr=778  fok=4   final=12365138.81 minDayEnd=      0.8 minIntra=      0.8 minMirror=     0.8 (res=0.80) pos<=6000000 viol=0 exc=0 consGap=0.00e+00 flags=(False, False) ok
+cash=  40 seed=3   adverse  d=45  tr=775  fok=1   final=      0.8 minDayEnd=      0.8 minIntra=      0.8 minMirror=     0.8 (res=0.80) pos<=600000  viol=0 exc=0 consGap=0.00e+00 flags=(False, False) ok
+cash=  40 seed=4   drain    d=25  tr=422  fok=3   final=5278068.81 minDayEnd=      0.8 minIntra=      0.8 minMirror=     0.8 (res=0.80) pos<=2759998 viol=0 exc=0 consGap=0.00e+00 flags=(False, False) ok
+cash=  40 seed=4   adverse  d=25  tr=420  fok=0   final=      0.8 minDayEnd=      0.8 minIntra=      0.8 minMirror=     0.8 (res=0.80) pos<=480000  viol=0 exc=0 consGap=0.00e+00 flags=(False, False) ok
+--- capped fills (<=30 lots) ---
+cash=  10 seed=5   drain    d=30  tr=673  fok=140 final=  2534.46 minDayEnd=      0.2 minIntra=      0.2 minMirror=     0.2 (res=0.20) pos<=1850    viol=0 exc=0 consGap=0.00e+00 flags=(False, False) ok
+cash=  10 seed=5   adverse  d=30  tr=528  fok=0   final=      0.2 minDayEnd=      0.2 minIntra=      0.2 minMirror=     0.2 (res=0.20) pos<=450     viol=0 exc=0 consGap=0.00e+00 flags=(False, False) ok
+cash=  40 seed=5   drain    d=30  tr=613  fok=91  final=   1009.8 minDayEnd=      0.8 minIntra=      0.8 minMirror=     0.8 (res=0.80) pos<=81443   viol=0 exc=0 consGap=0.00e+00 flags=(False, False) ok
+cash=  40 seed=5   adverse  d=30  tr=529  fok=1   final=      0.8 minDayEnd=      0.8 minIntra=      0.8 minMirror=     0.8 (res=0.80) pos<=450     viol=0 exc=0 consGap=0.00e+00 flags=(False, False) ok
+WORST min day-end external ledger: (0.2, 10, 1, 'drain')

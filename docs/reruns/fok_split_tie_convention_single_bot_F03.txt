@@ -1,0 +1,26 @@
+=== A. materiality (40 seeds x 3 scenarios, capitals 10/20/40 by seed; 21.7s)
+--- FOK/RFQ routing stats under published rule [all scenarios pooled]
+  FOK events with >=1 accepter: 12103, multi-accepter: 3727 (30.8%)
+  requested lots (all accepted FOKs): 187520, allocated under floor rule: 185266, dropped: 2254 = 1.20% of accepted-FOK volume, 3.83% of multi-accepter volume
+  multi-accepter events with a dropped remainder: 1949 (52.3% of multi), events with qty < n_accepters (seat-order starvation): 38
+  our accepted-FOK lots: floor rule 74629 vs round-robin 75484 (events where we accepted: 6990)
+  RFQ events: 28800, our price tied with some competitor: 1442 (5.0%), our take differs first-vs-last: 175 (0.61%), lots at stake: 866
+  [calm_dumb] dropped 1098/80006 lots (1.37%), multi 1784/5140, starved 20, our lots floor 38877 vs rr 39315, RFQ tie-affected 77/9600 lots 423
+  [mixed] dropped 703/63265 lots (1.11%), multi 1172/4104, starved 12, our lots floor 25915 vs rr 26177, RFQ tie-affected 60/9600 lots 286
+  [toxic] dropped 453/44249 lots (1.02%), multi 771/2859, starved 6, our lots floor 9837 vs rr 9992, RFQ tie-affected 38/9600 lots 157
+
+=== B. rule sensitivity of our PnL / rank (paired by seed vs published rule)
+  published(floor,us_first): calm_dumb: mean  277.79±16.79 wins 36/40 bankrupt 0; mixed: mean  118.04±14.98 wins 32/40 bankrupt 0; toxic: mean   18.94± 7.63 wins 16/40 bankrupt 0;
+  (floor,us_last) vs published: calm_dumb: dPnL  +0.57±1.34 (identical 10/40, rank-changes 0, wins 36, bankrupt 0); mixed: dPnL  +1.35±2.39 (identical 12/40, rank-changes 0, wins 32, bankrupt 0); toxic: dPnL  +0.30±1.85 (identical 17/40, rank-changes 3, wins 18, bankrupt 0);
+  (floor,random) vs published: calm_dumb: dPnL  +0.65±1.25 (identical 17/40, rank-changes 0, wins 36, bankrupt 0); mixed: dPnL  -0.03±1.68 (identical 20/40, rank-changes 0, wins 32, bankrupt 0); toxic: dPnL  +1.08±1.53 (identical 23/40, rank-changes 2, wins 18, bankrupt 0);
+  (rr,us_first) vs published: calm_dumb: dPnL  +6.53±1.74 (identical 0/40, rank-changes 0, wins 36, bankrupt 0); mixed: dPnL  +0.85±2.52 (identical 2/40, rank-changes 1, wins 31, bankrupt 0); toxic: dPnL  -0.61±1.33 (identical 4/40, rank-changes 3, wins 13, bankrupt 0);
+  (rr,random) vs published: calm_dumb: dPnL  +8.38±2.22 (identical 1/40, rank-changes 0, wins 36, bankrupt 0); mixed: dPnL  +1.42±2.94 (identical 2/40, rank-changes 0, wins 32, bankrupt 0); toxic: dPnL  +0.09±1.72 (identical 2/40, rank-changes 4, wins 17, bankrupt 0);
+
+=== C. paired-A/B robustness: arm minus full, under published vs corrected rule (20 seeds x 3)
+  -extraction     | calm_dumb: pub  -32.7±14.0 corr  -35.8±14.3 (diff  -3.1± 3.8) | mixed: pub   +1.6± 7.8 corr   +3.7± 7.6 (diff  +2.1± 8.4) | toxic: pub   +0.7± 4.9 corr   -2.2± 4.1 (diff  -2.9± 5.2)
+  -fok_dose       | calm_dumb: pub   +6.9± 5.0 corr   +1.5± 5.6 (diff  -5.3± 3.3) | mixed: pub  +20.9± 7.5 corr  +22.0± 7.7 (diff  +1.2± 4.7) | toxic: pub  +10.7± 9.9 corr   +8.2± 9.1 (diff  -2.5± 5.3)
+  -ramp           | calm_dumb: pub   +4.6± 3.3 corr   +2.5± 3.1 (diff  -2.1± 1.5) | mixed: pub   -1.8± 2.9 corr   +4.4± 3.8 (diff  +6.2± 3.3) | toxic: pub   -0.2± 0.2 corr   -0.2± 0.1 (diff  -0.0± 0.1)
+  -realized_gate  | calm_dumb: pub   +0.2± 5.4 corr   -0.2± 2.9 (diff  -0.4± 3.8) | mixed: pub   +8.2± 5.2 corr  +10.0± 4.6 (diff  +1.8± 2.4) | toxic: pub   +0.5± 1.3 corr   -1.0± 2.7 (diff  -1.5± 2.3)
+  -rfq_width      | calm_dumb: pub   -5.6± 4.7 corr  -12.2± 5.0 (diff  -6.6± 3.9) | mixed: pub   -4.7± 4.2 corr   -8.4± 6.2 (diff  -3.6± 4.0) | toxic: pub   +6.1± 5.1 corr   +6.1± 5.2 (diff  -0.0± 4.2)
+
+total 52.4s

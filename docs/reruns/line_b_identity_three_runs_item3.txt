@@ -1,0 +1,14 @@
+Line B identity check: three platform evaluation transcripts (V46 unpatched; V47 patched; V47 immediately before submission), 20 test cases each, compared after normalizing the display name. Organizer text is not reproduced; only the comparison verdicts are.
+
+v46_messages.json list n= 20
+v47_messages.json list n= 20
+v47_submit_run_messages.json list n= 20
+v46_messages.json count 20 total chars 8662 sha af41481e2a5425f9
+v47_messages.json count 20 total chars 8662 sha af41481e2a5425f9
+v47_submit_run_messages.json count 20 total chars 8662 sha af41481e2a5425f9
+v46 vs v47 (normalized) identical per case: [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+v47 vs v47_submit raw identical per case: [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+all three normalized identical: True
+submit-run score sum 16.0 pnl sum 307.42
+block counts 20 20 20
+046==047 True  047==048 True  046==048 True

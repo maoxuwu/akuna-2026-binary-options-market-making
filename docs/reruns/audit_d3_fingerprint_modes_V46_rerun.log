@@ -1,0 +1,11 @@
+== defensive gate (cash=10, 19 samples, FED0<=1.5, AJR drift<-0.005, THR drift>0.003) ==
+[defensive TRUEwrld] flag_set=True  cash=  10 seed=11  drain    d=25  tr=462  fok=0   final=1535253.88 minDayEnd=     0.67 minIntra=     0.27 minMirror=    0.27 (res=0.20) pos<=1670251 viol=0 exc=0 consGap=0.00e+00 flags=(True, False) ok
+[defensive TRUEwrld] flag_set=True  cash=  10 seed=11  adverse  d=25  tr=458  fok=0   final=      1.0 minDayEnd=      1.0 minIntra=      1.0 minMirror=     1.0 (res=0.20) pos<=110000  viol=0 exc=0 consGap=0.00e+00 flags=(True, False) ok
+[defensive ADVwrld] flag_set=True  cash=  10 seed=12  drain    d=25  tr=454  fok=0   final=252222.93 minDayEnd=     0.23 minIntra=     0.23 minMirror=    0.23 (res=0.20) pos<=1020000 viol=0 exc=0 consGap=0.00e+00 flags=(True, False) ok
+[defensive ADVwrld] flag_set=True  cash=  10 seed=12  adverse  d=25  tr=454  fok=0   final=      1.0 minDayEnd=      1.0 minIntra=      1.0 minMirror=     1.0 (res=0.20) pos<=140000  viol=0 exc=0 consGap=0.00e+00 flags=(True, False) ok
+
+== test19 gate (cash=40, 39 samples, FED0 in [1.25,1.75], AJR>0.005, THR<-0.005) ==
+[test19 TRUEwrld] flag_set=True  cash=  40 seed=11  drain    d=25  tr=441  fok=0   final=7705657.81 minDayEnd=      0.8 minIntra=      0.8 minMirror=     0.8 (res=0.80) pos<=2482105 viol=0 exc=0 consGap=0.00e+00 flags=(False, True) ok
+[test19 TRUEwrld] flag_set=True  cash=  40 seed=11  adverse  d=25  tr=441  fok=0   final=      0.8 minDayEnd=      0.8 minIntra=      0.8 minMirror=     0.8 (res=0.80) pos<=600000  viol=0 exc=0 consGap=0.00e+00 flags=(False, True) ok
+[test19 ADVwrld] flag_set=True  cash=  40 seed=12  drain    d=25  tr=453  fok=0   final=2168608.8 minDayEnd=      0.8 minIntra=      0.8 minMirror=     0.8 (res=0.80) pos<=1200000 viol=0 exc=0 consGap=0.00e+00 flags=(False, True) ok
+[test19 ADVwrld] flag_set=True  cash=  40 seed=12  adverse  d=25  tr=453  fok=0   final=      0.8 minDayEnd=      0.8 minIntra=      0.8 minMirror=     0.8 (res=0.80) pos<=440000  viol=0 exc=0 consGap=0.00e+00 flags=(False, True) ok

@@ -1,0 +1,38 @@
+=== MIXED tournaments: seat order (orig / reversed) x split (floor / rr)
+
+-- ①2xclone+SQ+FW.1+FW.05
+   [published rule] FOK multi-accepter 538/930, dropped lots 389/14044 (2.77%), remainder events 311, starved (qty<n) 14, RFQ tie-at-margin 88/1920
+   clone_a   orig/floor   89.74±23.63 wins 5 bk 0 | rev/floor d  +0.07±16.35 wins 5 bk 0 | orig/rr d  +6.83±5.97 wins 6 bk 0 | rev/rr d  +2.88±12.47 wins 4 bk 0
+   clone_b   orig/floor   88.69±26.12 wins 3 bk 0 | rev/floor d  -0.26±9.68 wins 3 bk 0 | orig/rr d -15.29±10.11 wins 2 bk 0 | rev/rr d  -2.18±8.08 wins 3 bk 0
+   SQ        orig/floor   16.58± 5.18 wins 0 bk 0 | rev/floor d  -2.28±2.60 wins 0 bk 0 | orig/rr d  +1.64±1.84 wins 0 bk 0 | rev/rr d  +2.34±4.31 wins 1 bk 0
+   FW0.10    orig/floor    4.10± 7.09 wins 0 bk 8 | rev/floor d  -0.46±0.50 wins 0 bk 8 | orig/rr d  +1.82±1.46 wins 0 bk 8 | rev/rr d  -1.50±1.39 wins 0 bk 8
+   FW0.05    orig/floor   -4.95± 5.55 wins 0 bk 8 | rev/floor d  +0.11±0.11 wins 0 bk 8 | orig/rr d  -0.15±0.38 wins 0 bk 8 | rev/rr d  +0.52±0.32 wins 0 bk 8
+
+-- ②clone vs tight+SQ+FW.1
+   [published rule] FOK multi-accepter 533/916, dropped lots 306/14033 (2.18%), remainder events 267, starved (qty<n) 6, RFQ tie-at-margin 65/1920
+   clone     orig/floor   74.19±23.36 wins 3 bk 0 | rev/floor d  +8.39±4.12 wins 6 bk 0 | orig/rr d +24.99±11.28 wins 6 bk 0 | rev/rr d +30.24±11.30 wins 7 bk 0
+   tight     orig/floor   71.26±23.80 wins 3 bk 0 | rev/floor d  -4.82±7.25 wins 1 bk 0 | orig/rr d -15.27±11.19 wins 1 bk 0 | rev/rr d -28.50±15.62 wins 0 bk 0
+   SQ        orig/floor   14.95±10.30 wins 0 bk 0 | rev/floor d  +1.53±1.16 wins 0 bk 0 | orig/rr d  +0.37±1.75 wins 0 bk 0 | rev/rr d  +0.59±2.27 wins 0 bk 0
+   FW0.10    orig/floor    6.60± 9.10 wins 2 bk 8 | rev/floor d  -0.20±0.20 wins 1 bk 8 | orig/rr d  +0.14±0.12 wins 1 bk 8 | rev/rr d  -0.02±0.13 wins 1 bk 8
+
+-- ③4xclone+FW.25+SQ
+   [published rule] FOK multi-accepter 621/970, dropped lots 733/14584 (5.03%), remainder events 374, starved (qty<n) 65, RFQ tie-at-margin 286/1920
+   clone_a   orig/floor   25.51±13.95 wins 2 bk 0 | rev/floor d  -2.07±9.84 wins 2 bk 0 | orig/rr d  +4.35±5.02 wins 2 bk 0 | rev/rr d  +3.47±12.71 wins 1 bk 0
+   clone_b   orig/floor   18.29± 8.42 wins 1 bk 0 | rev/floor d  +2.17±10.45 wins 1 bk 0 | orig/rr d  -1.10±3.90 wins 0 bk 0 | rev/rr d +12.49±14.02 wins 2 bk 0
+   clone_c   orig/floor   23.62± 7.66 wins 1 bk 0 | rev/floor d  +5.93±5.16 wins 1 bk 0 | orig/rr d +11.26±6.31 wins 2 bk 0 | rev/rr d  +9.31±5.46 wins 2 bk 0
+   clone_d   orig/floor   33.84± 8.52 wins 2 bk 0 | rev/floor d -13.57±7.04 wins 3 bk 0 | orig/rr d  -4.85±4.08 wins 2 bk 0 | rev/rr d  -8.92±6.28 wins 2 bk 0
+   FW0.25    orig/floor   20.18±20.43 wins 2 bk 7 | rev/floor d  -1.05±1.07 wins 1 bk 7 | orig/rr d  -2.11±2.22 wins 2 bk 7 | rev/rr d  -7.94±8.04 wins 1 bk 8
+   SQ        orig/floor    1.19± 3.31 wins 0 bk 0 | rev/floor d  -0.08±1.19 wins 0 bk 0 | orig/rr d  +0.04±1.31 wins 0 bk 0 | rev/rr d  +0.90±1.50 wins 0 bk 0
+
+=== SELFPLAY heterogeneous line-up: seat order x split
+   [published rule] FOK multi-accepter 571/670, dropped lots 636/9924 (6.41%), remainder events 368, starved (qty<n) 31, RFQ tie-at-margin 467/1920
+   v7         orig/floor   42.18±18.12 wins 2 bk 0 | rev/floor   52.23 d +10.05±12.83 wins 2 bk 0 | orig/rr   40.65 d  -1.53±7.40 wins 0 bk 0 | rev/rr   50.46 d  +8.29±7.62 wins 3 bk 0
+   tight      orig/floor   40.98±16.59 wins 1 bk 0 | rev/floor   41.02 d  +0.04±13.01 wins 3 bk 0 | orig/rr   44.83 d  +3.86±4.07 wins 2 bk 0 | rev/rr   47.90 d  +6.92±6.30 wins 1 bk 0
+   wide       orig/floor   57.20±13.04 wins 4 bk 0 | rev/floor   60.61 d  +3.41±9.18 wins 3 bk 0 | orig/rr   59.68 d  +2.48±4.48 wins 4 bk 0 | rev/rr   71.57 d +14.37±10.49 wins 4 bk 0
+   no_extract orig/floor   31.60±11.17 wins 1 bk 0 | rev/floor   18.84 d -12.76±7.22 wins 0 bk 0 | orig/rr   42.83 d +11.23±5.15 wins 2 bk 0 | rev/rr   24.27 d  -7.33±7.84 wins 0 bk 0
+   ranking by mean under ('orig', 'floor'): wide > v7 > tight > no_extract
+   ranking by mean under ('orig', 'rr'): wide > tight > no_extract > v7
+   ranking by mean under ('rev', 'floor'): wide > v7 > tight > no_extract
+   ranking by mean under ('rev', 'rr'): wide > v7 > tight > no_extract
+
+total 13.4s
